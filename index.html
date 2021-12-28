@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 🟢 SEO META TAGS (PRESERVED & IMPROVED) -->
+  <title>Carteles y Cercos de Obra en Buenos Aires | Leka Publicidad</title>
+  <meta name="description"
+    content="Fabricamos cercos de obra, carteles de obra y caballetes en Buenos Aires. Materiales resistentes, instalación profesional. Más de 30 años en publicidad para construcciones.">
+  <meta name="keywords"
+    content="Cercos de Obra, Carteles de Obra, Gigantografías, Publicidad en Obras, Fabricación de Cercos, Fabricación de Carteles, Fabricación de Caballetes, Buenos Aires, Leka Publicidad">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.lekapublicidad.com.ar/">
+
+  <!-- 🟢 2026 AESTHETIC: FONTS & ICONS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;500;700&family=Manrope&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <script src="https://unpkg.com/lucide@latest"></script> <!-- Technical Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- 🟢 CUSTOM CONFIG FOR LIGHT INDUSTRIAL THEME -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            white: '#FFFFFF',
+            concrete: '#F1F5F9',
+            brandRed: '#ff4040', // Leka Red
+            warning: '#FF4500'
+          },
+          fontFamily: {
+            sans: ['Space Grotesk', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+            manrope: ['Manrope', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-white text-gray-700 font-manrope antialiased selection:bg-brandRed selection:text-white">
+
+  <!-- 🟢 NAVIGATION (MOBILE-FIRST "APP" STYLE) -->
+  <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="#page-top" class="flex items-center">
+          <img src="img/sml-brand.png" alt="Leka Publicidad" class="h-8 md:h-10 w-auto">
+        </a>
+        <!-- Desktop Menu -->
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-8">
+            <a href="#cercos"
+              class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Cercos de Obra</a>
+            <a href="#cdo"
+              class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Carteles</a>
+            <a href="#caballetes"
+              class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Caballetes</a>
+            <a href="#proyectos"
+              class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
+            <a href="#contacto"
+              class="bg-brandRed font-sans text-white hover:bg-gray-900 hover:text-white px-4 py-2 rounded-none font-bold transition-all">COTIZAR
+              AHORA</a>
+          </div>
+        </div>
+        <!-- Mobile Burger Button -->
+        <button id="burger-btn" class="md:hidden p-2 text-gray-600 hover:text-brandRed" aria-label="Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu Panel -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+      <div class="px-4 py-4 space-y-3">
+        <a href="#servicios" class="block hover:text-brandRed transition-colors py-2">Servicios</a>
+        <a href="#proyectos" class="block hover:text-brandRed transition-colors py-2">Proyectos</a>
+        <a href="#contacto" class="block bg-brandRed text-white px-4 py-3 text-center font-bold">COTIZAR AHORA</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 🟢 HERO SECTION (VIDEO BACKGROUND PLACEHOLDER) -->
+  <header class="relative h-screen flex items-center justify-center overflow-hidden" id="hero">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-t from-white z-10"></div>
+    <!-- Background (Replace generic image with Drone Footage) -->
+    <div id="hero-bg" class="absolute inset-0 z-0 overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=2070&auto=format&fit=crop"
+        alt="Construction Site Background" class="w-full h-full object-cover opacity-40 ken-burns">
+    </div>
+
+    <div class="relative z-20 font-sans text-center max-w-5xl px-4">
+      <div class="inline-flex items-center gap-2 border border-brandRed bg-white/80 px-3 py-1 mb-6 rounded-full">
+        <span class="relative flex size-3">
+          <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brandRed opacity-75"></span>
+          <span class="relative inline-flex size-3 rounded-full bg-brandRed opacity-75"></span>
+        </span>
+        <span class="text-brandRed font-mono text-xs tracking-widest uppercase">Conforme a la normativa CABA</span>
+      </div>
+      <h1 class="text-5xl md:text-8xl font-bold mb-6 tracking-tight leading-none title-gradient">
+        HACEMOS CARTELES <br> Y CERCOS DE OBRA</h1>
+      <p class="text-xl md:text-3xl text-gray-600 mb-10 max-w-2xl mx-auto font-light">
+        Líderes en la Via Pública por más de 35 años</p>
+      <div class="flex flex-col md:flex-row gap-4 justify-center">
+        <a href="#cercos"
+          class="bg-brandRed text-white px-8 py-4 font-bold hover:bg-gray-900 hover:text-white transition-all flex items-center justify-center gap-2">
+          VER SOLUCIONES <i data-lucide="arrow-down-right"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+
+    <!-- 🟢 CERCOS DE OBRA -->
+    <section id="cercos" class="mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4">
+        <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Vallado de Obra</h2>
+        <span class="font-mono text-brandRed hidden md:block">Fabricación e instalación profesional de cercos para
+          obras en Buenos Aires</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[435px]">
+
+        <!-- Large Card: Cerco Doble Hoja -->
+        <article
+          class="md:col-span-2 relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
+          onclick="openModal('modal-cercos')">
+          <img src="img/portofolio/cercos/cerco-de-obra-one-place-1024.avif"
+            srcset="img/portofolio/cercos/cerco-de-obra-one-place-320.avif 320w, img/portofolio/cercos/cerco-de-obra-one-place-640.avif 640w, img/portofolio/cercos/cerco-de-obra-one-place-1024.avif 1024w"
+            sizes="100vw" alt="Cercos de Obra"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div class="absolute bottom-0 left-0 p-8">
+            <!-- <h3 class="text-3xl font-bold text-gray-900 mb-2">Cercos de Obra</h3> -->
+            <p class="text-brandRed font-bold mb-4 hover:text-gray-900 flex items-center gap-2">PORTON DOBLE HOJA</p>
+            <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
+              2 hojas de abrir de 2 x 2,44 m • Bisagras reforzadas • Anclaje Seguro
+            </p>
+          </div>
+        </article>
+
+        <!-- Large Card: Cerco Corredizo (Vertical) -->
+        <article
+          class="md:row-span-2 relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
+          onclick="openModal('modal-cercos')">
+          <img src="img/portofolio/cercos/cerco-de-obra-marcos-perez-1024.avif"
+            srcset="img/portofolio/cercos/cerco-de-obra-marcos-perez-320.avif 320w, img/portofolio/cercos/cerco-de-obra-marcos-perez-640.avif 640w, img/portofolio/cercos/cerco-de-obra-marcos-perez-1024.avif 1024w"
+            sizes="100vw" alt="Cercos de Obra"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div class="absolute bottom-0 left-0 p-8">
+            <!-- <h3 class="text-3xl font-bold text-gray-900 mb-2">Cercos de Obra</h3> -->
+            <p class="text-brandRed font-bold mb-4 hover:text-gray-900 flex items-center gap-2">PORTON CORREDIZO</p>
+            <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
+              Panel deslizable de 4,66 x 2,44 m • Riel metálico • Estructura liviana
+            </p>
+          </div>
+        </article>
+
+        <article class="md:col-span-2 relative group">
+          <!-- <span class="text-brandRed font-mono text-sm tracking-widest uppercase mb-2 block">Ingeniería & Calidad</span> -->
+          <h2 class="text-3xl font-bold text-gray-900 mb-6">Nuestra Propuesta</h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Nuestros <strong class="font-bold text-gray-900">cercos de obra reglamentarios</strong> están diseñados
+            para cumplir con las normativas de CABA y provincia
+            de Buenos Aires. Ofrecemos dos sistemas de apertura:
+          </p>
+
+          <div class="space-y-4 mb-6">
+            <div class="flex items-start gap-4">
+              <div class="bg-gray-100 p-2 rounded text-brandRed"><i data-lucide="rail-symbol"></i></div>
+              <div>
+                <h4 class="text-gray-900 font-bold">Portón corredizo:</h4>
+                <p class="text-sm text-gray-500">Ideal para espacios reducidos, con riel de deslizamiento reforzado.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="bg-gray-100 p-2 rounded text-brandRed"><i data-lucide="columns-2"></i></div>
+              <div>
+                <h4 class="text-gray-900 font-bold">Portón doble hoja:</h4>
+                <p class="text-sm text-gray-500">Perfecto para acceso de maquinaria y vehículos de obra.</p>
+              </div>
+            </div>
+          </div>
+
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Fabricados con <strong class="font-bold text-gray-900">chapa galvanizada C25</strong> y estructura
+            de <strong class="font-bold text-gray-900">caños 20x20 (0.9mm)</strong>, resisten las condiciones
+            más exigentes de la construcción. Medida estándar: <strong class="font-bold text-gray-900">8,66m x
+              2,44m</strong> (adaptable a tus necesidades). <strong class="font-bold text-gray-900">Instalación
+              profesional incluida</strong> en CABA y GBA.
+          </p>
+          <div class="pl-3 border-l-2 border-brandRed">
+            <p class="text-l font-bold text-gray-900 leading-relaxed text-center">Te invitamos a conocer nuestra web
+              dedicada a
+              Cercos de Obra para mayor información
+              <br><a href="https://www.cercosdeobra.com.ar/" target="_blank" class="text-2xl text-brandRed"
+                target="_blank" rel="noopener noreferrer">www.cercosdeobra.com.ar</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 🟢 CARTEL DE OBRA -->
+    <section id="cdo" class="mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4 text-right">
+        <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Cartel de Obra</h2>
+        <span class="font-mono text-brandRed hidden md:block">Cumplimiento normativo y visibilidad para Obras en Capital
+          Federal</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Left: Automatic Carousel -->
+        <div class="relative h-[500px] overflow-hidden border border-gray-200">
+          <div id="cdo-carousel" class="flex h-full transition-transform duration-700">
+            <div class="w-full h-full flex-shrink-0">
+              <img src="img/portofolio/cdo/cartel-de-obra-breconar.jpg" alt="Cartel de Obra Breconar"
+                class="w-full h-full object-cover">
+            </div>
+            <div class="w-full h-full flex-shrink-0">
+              <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra MSK"
+                class="w-full h-full object-cover">
+            </div>
+            <div class="w-full h-full flex-shrink-0">
+              <img src="img/portofolio/cdo/cartel-de-obra-nsd.jpg" alt="Cartel de Obra NSD"
+                class="w-full h-full object-cover">
+            </div>
+            <div class="w-full h-full flex-shrink-0">
+              <img src="img/portofolio/cdo/cartel-de-obra-rio.jpg" alt="Cartel de Obra Rio"
+                class="w-full h-full object-cover">
+            </div>
+          </div>
+          <!-- Carousel Dots -->
+          <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="0"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="1"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="2"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="3"></button>
+          </div>
+        </div>
+
+        <!-- Right: Article Text -->
+        <article>
+          <h2 class="text-3xl font-bold text-gray-900 mb-6">Sin cargo con anuncios</h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            Confeccionados en bastidor de madera y lona vinílica impresa en <strong class="font-bold text-gray-900">alta
+              resolución</strong>, son livianos, de inmejorable calidad, excelente presentación y fácil montaje.
+          </p>
+
+          <div class="space-y-4 mb-6">
+            <div class="flex items-center gap-4">
+              <div class="pl-1 rounded text-brandRed"><i data-lucide="check"></i></div>
+              <div>
+                <h4 class="text-gray-900 font-bold">Diseño a medida con tu logo y colores</h4>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="p-1 rounded text-brandRed"><i data-lucide="check"></i></div>
+              <div>
+                <h4 class="text-gray-900 font-bold">Espacio para promoción de tu estudio/empresa</h4>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="p-1 rounded text-brandRed"><i data-lucide="check"></i></div>
+              <div>
+                <h4 class="text-gray-900 font-bold">Incluye datos de la obra y profesionales</h4>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <div class="p-1 rounded text-brandRed"><i data-lucide="check"></i></div>
+              <div>
+                <h4 class="text-gray-900 font-bold">Varias medidas disponibles</h4>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Cartel de Obra Reglamentario (QR)</h2>
+          <p class="text-gray-600">
+            Lo ofrecemos de modo <strong class="font-bold text-gray-900">GRATUITO</strong> junto al pedido del Cartel de
+            Obra con anuncios exclusivamente.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 🟢 CABALLETES -->
+    <section id="caballetes">
+      <div class="mb-12 border-b border-gray-200 pb-4">
+        <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Caballetes prohibido estacionar</h2>
+        <span class="font-mono text-brandRed hidden md:block">Robustos, no se caen ni se rompen. Excelente
+          calidad.</span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-32 items-stretch">
+        <!-- Column 1: Image -->
+        <div
+          class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 h-full min-h-[400px]">
+          <img src="img/portofolio/caballete/caballete-soae.webp" alt="Caballete Prohibido Estacionar"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div class="absolute bottom-0 left-0 p-8">
+            <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
+              Diseño a medida con tu logo y colores
+            </p>
+          </div>
+        </div>
+
+        <!-- Column 2: Text -->
+        <div class="flex flex-col justify-center">
+          <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Delimitador de estacionamiento</h2>
+          <p class="text-gray-600 mb-6 leading-relaxed text-center">
+            Ideales para demarcar el espacio de estacionamiento reservado para tu obra. Fabricados en madera tratada con
+            pintura para exterior, resistentes a la intemperie y al viento.
+          </p>
+          <div class="bg-concrete p-6 border border-gray-200 font-mono text-sm">
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <span class="text-gray-500">Tamaño</span>
+              <span class="text-gray-900">1.50m x 60cm</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <span class="text-gray-500">Estructura</span>
+              <span class="text-gray-900">Tirantes madera 3" x 3"</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <span class="text-gray-500">Material</span>
+              <span class="text-gray-900">Chapa Galvanizada C25</span>
+            </div>
+            <div class="flex justify-between py-2">
+              <span class="text-gray-500">Impresión</span>
+              <span class="text-gray-900">Vinilo 1440 DPI UV</span>
+            </div>
+          </div>
+        </div>
+        <!-- Column 3: More Image -->
+        <div
+          class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 h-full min-h-[400px]">
+          <img src="img/portofolio/caballete/caballete-garcia-del-rio.webp" alt="Caballete Prohibido Estacionar"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div class="absolute bottom-0 left-0 p-8">
+            <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
+              Estándar sólo información reglamentaria
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 🟢 PROYECTOS / PORTFOLIO -->
+    <section id="proyectos" class="mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4 text-right">
+        <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Nuestros Trabajos</h2>
+        <span class="font-mono text-brandRed hidden md:block">Ofrecemos un amplio rango de opciones de publicidad para
+          <strong> Obras, Empresas y Comercios</strong></span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div
+          class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer"
+          onclick="openModal('modal-carteles')">
+          <img src="img/portofolio/carteles/cartel-torres-de-caballito.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Emprendimientos Inmobiliarios</p>
+            <h4 class="text-xl font-bold text-gray-900">Cartel obra en construccion</h4>
+          </div>
+        </div>
+        <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-lonas')">
+          <img src="img/portofolio/lona-forbex.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Identidad de Marca</p>
+            <h4 class="text-lg font-bold text-gray-900">Lona Publicitaria</h4>
+          </div>
+        </div>
+        <div
+          class="md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer"
+          onclick="openModal('modal-gigantografias')">
+          <img src="img/portofolio/gigantografia/gigantografia-chateau-libertador.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Obra en construcción</p>
+            <h4 class="text-lg font-bold text-gray-900">Gigantografía</h4>
+          </div>
+        </div>
+        <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-caballetes')">
+          <img src="img/portofolio/caballete/caballete-olleros.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Delimitar Estacionamiento</p>
+            <h4 class="text-lg font-bold text-gray-900">Caballetes</h4>
+          </div>
+        </div>
+        <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-cdo')">
+          <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">GRATUITO</p>
+            <h4 class="text-lg font-bold text-gray-900">Cartel de Obra</h4>
+          </div>
+        </div>
+        <div
+          class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-cercos')">
+          <img src="img/portofolio/cercos/cerco-de-obra-emilio-lamarca-1024.avif" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">RIEL O DOBLE HOJA</p>
+            <h4 class="text-lg font-bold text-gray-900">Cerco de Obra</h4>
+          </div>
+        </div>
+
+        <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-inmobiliaria')">
+          <img src="img/portofolio/inmobiliaria/cartel-inmobiliaria-covello.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Cartel de Vende / Alquila</p>
+            <h4 class="text-lg font-bold text-gray-900">Cartel para Inmobiliaria</h4>
+          </div>
+        </div>
+        <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-comercios')">
+          <img src="img/portofolio/comercios/cartel-teloguardo.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Marcas</p>
+            <h4 class="text-lg font-bold text-gray-900">Carteles para Comercios</h4>
+          </div>
+        </div>
+        <div class="col-start-4 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+          onclick="openModal('modal-vinilos')">
+          <img src="img/portofolio/autoadesivo-covello.webp" alt="Proyecto Leka"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
+          <div
+            class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
+            <p class="text-brandRed font-mono text-xs mb-1 uppercase">Vidrieras</p>
+            <h4 class="text-lg font-bold text-gray-900">Gráfica autoadhesiva</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🟢 PROJECT MODALS -->
+    <div id="modal-carteles" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <button onclick="prevImage()"
+          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
+        <button onclick="nextImage()"
+          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-carteles-img" src="img/portofolio/carteles/cartel-torres-de-caballito.webp" alt="Proyecto"
+              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <button onclick="prevImage()"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
+            <button onclick="nextImage()"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Emprendimientos Inmobiliarios</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-carteles-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-carteles-desc">Carteles para emprendimientos inmobiliarios.
+              Diseño
+              a medida con tu logo y colores corporativos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-gigantografias" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <button onclick="prevImage()"
+          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
+        <button onclick="nextImage()"
+          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-gigantografias-img" src="img/portofolio/carteles/cartel-chateau-libertador.webp"
+              alt="Proyecto" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <button onclick="prevImage()"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
+            <button onclick="nextImage()"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Obra en construcción</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-gigantografias-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-gigantografias-desc">Gigantografías de gran formato para
+              obras en
+              construcción. Alta resolución y resistencia intemperie.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-lonas" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-lonas-img" src="img/portofolio/lona-forbex.webp" alt="Proyecto"
+              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Identidad de Marca</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-lonas-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-lonas-desc">Lonas publicitarias de alta resistencia.
+              Impresión digital UV de alta
+              calidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-inmobiliaria" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <button onclick="prevImage()"
+          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
+        <button onclick="nextImage()"
+          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-inmobiliaria-img" src="img/portofolio/inmobiliaria/cartel-inmobiliaria-covello.webp"
+              alt="Proyecto" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <button onclick="prevImage()"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
+            <button onclick="nextImage()"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Cartel de Vende / Alquila</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-inmobiliaria-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-inmobiliaria-desc">Carteles de Vende / Alquila para
+              inmobiliarias.
+              Diseño profesional y llamativos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-vinilos" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-vinilos-img" src="img/portofolio/autoadesivo-covello.webp" alt="Proyecto"
+              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Comercios</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-vinilos-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-vinilos-desc">Gráfica autoadhesiva para comercios. Vinilo de
+              alta calidad con
+              impresión full color.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-caballetes" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <button onclick="prevImage()"
+          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
+        <button onclick="nextImage()"
+          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-caballetes-img" src="img/portofolio/caballete/caballete-chivilcoy.webp" alt="Proyecto"
+              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <button onclick="prevImage()"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
+            <button onclick="nextImage()"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Delimitar Estacionamiento</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-caballetes-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-caballetes-desc">Caballetes prohibido estacionar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🟢 CERCOS MODAL -->
+    <div id="modal-cercos" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <button onclick="prevImage()"
+          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
+        <button onclick="nextImage()"
+          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-cercos-img" src="img/portofolio/cercos/cerco-de-obra-one-place-1024.avif"
+              alt="Cercos de Obra" class="w-full h-auto max-h-[60vh] object-cover mx-auto"
+              srcset="img/portofolio/cercos/cerco-de-obra-one-place-320.avif 320w, img/portofolio/cercos/cerco-de-obra-one-place-640.avif 640w, img/portofolio/cercos/cerco-de-obra-one-place-1024.avif 1024w"
+              sizes="(max-width: 768px) 100vw, 1024px">
+            <button onclick="prevImage()"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
+            <button onclick="nextImage()"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Cercos de Obra</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-cercos-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-cercos-desc">Cercos de obra reglamentarios. Fabricación e
+              instalación profesional en CABA y GBA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-cdo" class="fixed inset-0 z-[100] hidden">
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
+        <button onclick="closeModal()"
+          class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
+        <button onclick="prevImage()"
+          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
+        <button onclick="nextImage()"
+          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div class="relative bg-concrete">
+            <img id="modal-cdo-img" src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Proyecto"
+              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+          </div>
+          <div class="p-6 border-t border-gray-200">
+            <div class="flex justify-between items-center mb-4">
+              <p class="text-brandRed font-mono text-xs tracking-widest uppercase">Cartel de Obra</p>
+              <p class="text-gray-400 font-mono text-sm" id="modal-cdo-counter"></p>
+            </div>
+            <p class="text-gray-600 font-manrope" id="modal-cdo-desc">Carteles de obra reglamentarios. Fabricación e
+              instalación profesional en CABA y GBA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🟢 SOBRE NOSOTROS -->
+    <section class="mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4">
+        <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Acerca de <span class="text-brandRed">Leka</span></h2>
+        <span class="font-mono text-brandRed hidden md:block">Ofrecemos soluciones a tu medida</span>
+      </div>
+
+      <!-- Two column: text left, stats right -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Left: Text Content -->
+        <div class="space-y-6 text-justify">
+          <p class="font-bold leading-relaxed">
+            Contamos con una amplia experiencia en el sector y el know-how necesario para comunicar el mensaje que tu obra necesita, siempre con un enfoque en la calidad y la atención personalizada.
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            Desde pequeños carteles hasta grandes cercos de obra, estamos comprometidos en proporcionar soluciones que se ajusten a tus necesidades. Si buscas una empresa <strong>confiable y con experiencia</strong>, no dudes en contactarnos.
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            La atención desde hace más de 35 años a empresas líderes, como así también estudios de arquitectura, ingeniería, constructoras y desarrolladoras, que renuevan su voto de confianza en cada encomienda, son nuestra mejor carta de presentación.
+          </p>
+          <a href="#contacto"
+            class="inline-block bg-brandRed text-white px-8 py-3 font-bold hover:bg-gray-900 transition-colors mt-4">
+            Hagamos grandes cosas juntos
+          </a>
+        </div>
+
+        <!-- Right: Stats (3 rows, centered, 50% width) -->
+        <div class="grid grid-rows-3 gap-4 min-w-[40%] mx-auto">
+          <div class="flex flex-col justify-center text-center p-4 bg-concrete border border-gray-200">
+            <div class="text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter" data-target="35">0</span>
+            </div>
+            <p class="text-sm font-mono text-gray-500 uppercase tracking-tighter">Años</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-4 bg-concrete border border-gray-200">
+            <div class="text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter" data-target="5">0</span>k
+            </div>
+            <p class="text-sm font-mono text-gray-500 uppercase tracking-tighter">Obras</p>
+          </div>
+          <div class="flex flex-col justify-center text-center p-4 bg-concrete border border-gray-200">
+            <div class="text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
+                data-target="800">0</span></div>
+            <p class="text-sm font-mono text-gray-500 uppercase tracking-tighter">Clientes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🟢 CLIENT LOGO GRID (TRUST SIGNALS) -->
+    <section class="mb-32 text-center">
+      <p class="font-mono text-gray-500 mb-8 uppercase tracking-widest">Confían su publicidad en Nosotros</p>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-2 items-center justify-items-center">
+        <a href="https://arcomaquinarias.com/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/arco.webp" alt="Arco" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://www.etaelectro.com/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/baw.jpg" alt="Baw" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="https://www.caldaia.com.ar/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/caldaia.webp" alt="Caldaia" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://www.kalciyan.com.ar/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/kalciyan.webp" alt="Kalciyan" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="https://cortinasmetalicasmagallan.com/2018/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/magallan.webp" alt="Magallan" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://mansilladerqui.com.ar/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/mansilla.webp" alt="Mansilla" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://griferiapeirano.com/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/peirano.webp" alt="Peirano" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://perfecto.com.ar/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/perfecto.webp" alt="Perfecto" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://pvcevolution.com/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/pvc.webp" alt="Pvc" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="http://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/rheem.webp" alt="Rheem" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+        <a href="https://www.roker.com.ar/" target="_blank" rel="noopener noreferrer">
+          <img src="img/logos/rocker.webp" alt="Rocker" class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 🟢 FOOTER -->
+  <footer id="contacto" class="bg-gray-900 border-t border-gray-200 pt-20 pb-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div>
+        <img src="img/sml-brand.png" alt="Leka Publicidad" class="h-10 w-auto mb-6">
+        <p class="mt-6 text-gray-400 max-w-sm">
+          Soluciones integrales de comunicación visual para la industria de la construcción.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="https://wa.me/541137573070"
+            class="bg-[#25D366] text-white px-6 py-3 font-bold hover:bg-[#128C7E] transition-colors flex items-center gap-2">
+            <i data-lucide="message-circle"></i> WHATSAPP
+          </a>
+          <a href="mailto:carteles@lekapublicidad.com.ar"
+            class="border border-gray-600 text-gray-300 px-6 py-3 font-bold hover:bg-gray-800 transition-colors flex items-center gap-2">
+            <i data-lucide="mail"></i> EMAIL
+          </a>
+        </div>
+      </div>
+      <div class="font-mono text-sm text-gray-400 md:text-right space-y-2">
+        <p class="text-white font-bold uppercase tracking-widest">Contacto Directo</p>
+        <p class="pt-4 text-white">Tel: 11 3757 - 3070</p>
+        <p>carteles@lekapublicidad.com.ar</p>
+        <p class="pt-4 ">Buenos Aires, Argentina</p>
+        <div class="flex md:justify-end gap-4 pt-6">
+          <a href="https://www.instagram.com/lekapublicidad" class="hover:text-brandRed transition-colors"><i
+              data-lucide="instagram"></i></a>
+          <a href="https://www.facebook.com/lekapublicidad" class="hover:text-brandRed transition-colors"><i
+              data-lucide="facebook"></i></a>
+          <a href="https://www.linkedin.com/company/leka-publicidad/" class="hover:text-brandRed transition-colors"><i
+              data-lucide="linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 mt-20 pt-8 border-t border-gray-800 text-center text-gray-500 text-xs font-mono">
+      &copy; 2026 LEKA PUBLICIDAD. ALL SYSTEMS OPERATIONAL.
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/542613842742"
+    class="group fixed bottom-8 right-8 w-14 h-14 bg-[#25d366] text-white rounded-full flex items-center justify-center text-3xl shadow-[0_4px_15px_rgba(37,211,102,0.4)] z-[1000] transition-transform duration-300 hover:scale-110 max-md:bottom-4 max-md:right-4"
+    target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-whatsapp relative" aria-hidden="true"></i>
+    <span
+      class="absolute right-16 bg-white text-gray-900 px-3 py-1 rounded-md text-xs font-semibold shadow-sm whitespace-nowrap opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">¿Necesita
+      ayuda?</span>
+  </a>
+
+  <!-- 🟢 2026 GEO/SEO SCHEMA (Structured Data) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Leka Publicidad",
+    "image": "https://www.lekapublicidad.com.ar/img/logo.png",
+    "description": "Fabricación e instalación de carteles de obra, cercos perimetrales y señalética industrial en Buenos Aires.",
+    "telephone": "+54 11 3757 3070",
+    "email": "carteles@lekapublicidad.com.ar",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buenos Aires",
+      "addressCountry": "AR"
+    },
+    "url": "https://www.lekapublicidad.com.ar/",
+    "priceRange": "$$"
+  }
+</script>
+
+  <!-- Icons Init -->
+  <script src="js/app.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+
+</html>

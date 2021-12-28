@@ -1,0 +1,134 @@
+/* Light Theme Background Grid */
+/* body {
+    background-color: #F8FAFC;
+    background-image:
+            linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+} */
+
+html {
+    scroll-padding-top: 6rem;
+}
+
+:root {
+    --text-dark: #2c3e50;
+    --white: #ffffff;
+    --color-gray-500: oklch(55.1% 0.027 264.364);
+    --color-gray-900: oklch(21% 0.034 264.665);
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02);
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border: 1px solid #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff4040;
+    /* Brand red hover */
+}
+
+/* Typography Tweaks */
+h1,
+h2,
+h3 {
+    letter-spacing: -0.03em;
+}
+
+/* Utility for image darkening */
+.img-dim {
+    filter: brightness(0.6) contrast(1.2);
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes cosmic-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, var(--color-gray-500), var(--color-gray-900));
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-shift 3s ease infinite;
+}
+
+.title-gradient {
+    display: inline-block;
+    background: linear-gradient(90deg, #1a1a1a 0%, #4a4a4a 20%, #7a7a7a 40%, #9a9a9a 60%, #7a7a7a 80%, #1a1a1a 100%);
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-animation: cosmic-gradient 3s linear infinite;
+    animation: cosmic-gradient 3s linear infinite;
+}
+
+/* --- Whatsapp Floating Button --- */
+/* Moved to Tailwind classes in index.html */
+
+/* Ken Burns Hero Animation */
+@keyframes kenBurns {
+    0% {
+        transform: scale(1) translate(0, 0);
+    }
+
+    100% {
+        transform: scale(1.1) translate(-2%, -1%);
+    }
+}
+
+.ken-burns {
+    animation: kenBurns 20s ease-out forwards;
+}
+
+/* CDO Carousel */
+#cdo-carousel {
+    width: 400%;
+}
+
+#cdo-carousel>div {
+    width: 25%;
+}
+
+.cdo-dot.active {
+    background-color: #ff4040;
+}
