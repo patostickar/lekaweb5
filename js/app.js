@@ -98,3 +98,16 @@ cdoDots.forEach((dot, i) => {
 });
 
 updateCdoCarousel();
+
+// Toast for email copied
+function copyEmail() {
+  navigator.clipboard.writeText('carteles@lekapublicidad.com.ar').then(function () {
+    var toast = document.getElementById('email-toast');
+    toast.classList.remove('opacity-0', 'invisible');
+    toast.classList.add('opacity-100', 'visible');
+    setTimeout(function () {
+      toast.classList.remove('opacity-100', 'visible');
+      toast.classList.add('opacity-0', 'invisible');
+    }, 3000);
+  });
+}

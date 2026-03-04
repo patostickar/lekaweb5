@@ -68,8 +68,7 @@
             <a href="#proyectos"
               class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
             <a href="#contacto"
-              class="bg-brandRed font-sans text-white hover:bg-gray-900 hover:text-white px-4 py-2 rounded-none font-bold transition-all">COTIZAR
-              AHORA</a>
+              class="bg-brandRed font-sans text-white hover:bg-gray-900 hover:text-white px-4 py-2 rounded-none font-bold transition-all">CONTACTO</a>
           </div>
         </div>
         <!-- Mobile Burger Button -->
@@ -121,7 +120,7 @@
     </div>
   </header>
 
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
 
     <!-- 🟢 CERCOS DE OBRA -->
     <section id="cercos" class="mb-32">
@@ -838,11 +837,108 @@
         </p>
       </div>
     </section>
-
   </main>
+  
+  <!-- 🟢 CONTACTO FORM -->
+  <section id="contacto">
+    <!-- Full-width parallax wrapper -->
+    <div class="relative">
+      <div class="relative  pb-12 pt-6"
+        style="background-image: url('img/contact-image-min4.webp'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-gray-900/50"></div>
+        
+        <!-- Content with two columns on desktop -->
+        <div class="relative z-10 max-w-5xl mx-auto px-4 pt-12 pb-12">
+          <div class="text-center mb-10">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-2 uppercase tracking-wide">Hablemos</h2>
+            <span class="font-mono text-brandRed block">Envianos cualquier consulta que tengas y nos pondremos en contacto</span>
+          </div>
+          
+          <div class="grid items-start grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
+            <!-- Form Column -->
+            <div class="order-2 md:col-span-2 md:order-1">
+              <form id="contact-form" class="space-y-5">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label for="user_name" class="block text-sm font-medium text-gray-300 mb-2">Nombre</label>
+                    <input type="text" id="user_name" name="user_name" required
+                      class="w-full px-4 py-3 border border-gray-500 focus:border-brandRed focus:ring-1 focus:ring-brandRed outline-none transition-colors bg-gray-800/50 text-white placeholder-gray-400"
+                      placeholder="Tu nombre completo">
+                  </div>
+                  <div>
+                    <label for="user_email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                    <input type="email" id="user_email" name="user_email" required
+                      class="w-full px-4 py-3 border border-gray-500 focus:border-brandRed focus:ring-1 focus:ring-brandRed outline-none transition-colors bg-gray-800/50 text-white placeholder-gray-400"
+                      placeholder="tu@email.com">
+                  </div>
+                </div>
+                <div>
+                  <label for="user_phone" class="block text-sm font-medium text-gray-300 mb-2">Teléfono</label>
+                  <input type="tel" id="user_phone" name="user_phone"
+                    class="w-full px-4 py-3 border border-gray-500 focus:border-brandRed focus:ring-1 focus:ring-brandRed outline-none transition-colors bg-gray-800/50 text-white placeholder-gray-400"
+                    placeholder="11 1234 5678">
+                </div>
+                <div>
+                  <label for="user_message" class="block text-sm font-medium text-gray-300 mb-2">Mensaje</label>
+                  <textarea id="user_message" name="user_message" rows="4" required
+                    class="w-full px-4 py-3 border border-gray-500 focus:border-brandRed focus:ring-1 focus:ring-brandRed outline-none transition-colors bg-gray-800/50 text-white placeholder-gray-400 resize-none"
+                    placeholder="Tu mensaje"></textarea>
+                </div>
+                <button type="submit"
+                  class="w-full bg-brandRed text-white px-8 py-4 font-bold hover:bg-gray-900 transition-colors flex items-center justify-center gap-2">
+                  ENVIAR MENSAJE <i data-lucide="send"></i>
+                </button>
+              </form>
+            </div>
+            
+            <!-- Contact Info Column - more prominent -->
+            <div class="order-1 md:order-2 flex flex-col justify-center">
+              <div class="text-center md:text-left space-y-6">
+                <div>
+                  <p class="text-gray-400 text-lg mb-4">Comunicate directamente por:</p>
+                  <div class="flex flex-col sm:flex-row md:flex-col gap-4">
+                    <a href="https://wa.me/541137573070"
+                      class="bg-[#25D366] text-white px-8 py-4 font-bold hover:bg-[#128C7E] transition-colors flex items-center justify-center gap-3 text-lg">
+                      <i data-lucide="message-circle" class="w-6 h-6"></i> WHATSAPP
+                    </a>
+                    <a href="mailto:carteles@lekapublicidad.com.ar"
+                      class="border-2 border-gray-400 text-white px-8 py-4 font-bold hover:bg-white hover:text-gray-900 transition-colors flex items-center justify-center gap-3 text-lg">
+                      <i data-lucide="mail" class="w-6 h-6"></i> EMAIL
+                    </a>
+                  </div>
+                </div>
+                
+                <div class="pt-6 border-t border-gray-600">
+                  <p class="text-brandRed font-bold text-xl mb-3">Teléfono</p>
+                  <a href="tel:+541137573070" class="text-white text-2xl md:text-3xl font-bold hover:text-brandRed transition-colors">
+                    11 3757 - 3070
+                  </a>
+                </div>
+                
+                <div class="pt-4">
+                  <p class="text-brandRed font-bold text-xl mb-2">Correo</p>
+                  <p onclick="copyEmail()" class="text-white text-xl md:text-2xl font-bold cursor-pointer hover:text-brandRed transition-colors flex items-center justify-center md:justify-start gap-2">
+                    carteles@lekapublicidad.com.ar
+                    <i data-lucide="copy" class="w-5 h-5"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Toast for email copied -->
+  <div id="email-toast" class="fixed bottom-8 left-1/2 -translate-x-1/2 bg-gray-900 text-white px-6 py-3 rounded-lg shadow-lg z-[1000] opacity-0 invisible transition-all duration-300 flex items-center gap-2">
+    <i data-lucide="check-circle" class="w-5 h-5 text-green-400"></i>
+    <span>Email copiado al portapapeles</span>
+  </div>
 
   <!-- 🟢 FOOTER -->
-  <footer id="contacto" class="bg-gray-900 border-t border-gray-200 pt-20 pb-10">
+  <footer class="bg-gray-900 pt-20 pb-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
         <img src="img/sml-brand.png" alt="Leka Publicidad" class="h-10 w-auto mb-6">
@@ -876,7 +972,7 @@
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 mt-20 pt-8 border-t border-gray-800 text-center text-gray-500 text-xs font-mono">
-      &copy; 2026 LEKA PUBLICIDAD. ALL SYSTEMS OPERATIONAL.
+      &copy; 2026 LEKA PUBLICIDAD. TODOS LOS DERECHOS RESERVADOS.
     </div>
   </footer>
 
@@ -886,8 +982,7 @@
     target="_blank" rel="noopener noreferrer">
     <i class="fab fa-whatsapp relative" aria-hidden="true"></i>
     <span
-      class="absolute right-16 bg-white text-gray-900 px-3 py-1 rounded-md text-xs font-semibold shadow-sm whitespace-nowrap opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">¿Necesita
-      ayuda?</span>
+      class="absolute right-16 bg-white text-gray-900 px-3 py-1 rounded-md text-xs font-semibold shadow-sm whitespace-nowrap opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">Escribinos por WhatsApp</span>
   </a>
 
   <!-- 🟢 2026 GEO/SEO SCHEMA (Structured Data) -->
@@ -913,6 +1008,11 @@
   <!-- Icons Init -->
   <script src="js/app.js"></script>
   <script src="js/portfolio.js"></script>
+  
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/contact.js"></script>
+  
 </body>
 
 </html>

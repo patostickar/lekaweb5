@@ -132,3 +132,10 @@ h3 {
 .cdo-dot.active {
     background-color: #ff4040;
 }
+
+/* Parallax Contact Section */
+@media (max-width: 768px) {
+    #contacto > div > div:first-child {
+        background-attachment: scroll !important;
+    }
+}
