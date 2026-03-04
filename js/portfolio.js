@@ -18,15 +18,6 @@ const modalData = {
       'img/portofolio/cercos/cerco-de-obra-marcos-perez-320.avif 320w, img/portofolio/cercos/cerco-de-obra-marcos-perez-640.avif 640w, img/portofolio/cercos/cerco-de-obra-marcos-perez-1024.avif 1024w',
       'img/portofolio/cercos/cerco-de-obra-pedron-moran-320.avif 320w, img/portofolio/cercos/cerco-de-obra-pedron-moran-640.avif 640w, img/portofolio/cercos/cerco-de-obra-pedron-moran-1024.avif 1024w',
       'img/portofolio/cercos/cerco-de-obra-emilio-lamarca-320.avif 320w, img/portofolio/cercos/cerco-de-obra-emilio-lamarca-640.avif 640w, img/portofolio/cercos/cerco-de-obra-emilio-lamarca-1024.avif 1024w'
-    ],
-    descriptions: [
-      'Cercos de obra reglamentarios - One Place',
-      'Cerco de obra con portón corredizo - Spinelli',
-      'Cerco de obra moderno - Vaccaro',
-      'Cerco de obra para construcción - Falcon',
-      'Cerco de obra - Marcos Pérez',
-      'Cerco de obra - Pedrón Moran',
-      'Cerco de obra - Emilio Lamarca'
     ]
   },
   'modal-cdo': {
@@ -35,12 +26,6 @@ const modalData = {
       'img/portofolio/cdo/cartel-de-obra-rio.jpg',
       'img/portofolio/cdo/cartel-de-obra-nsd.jpg',
       'img/portofolio/cdo/cartel-de-obra-breconar.jpg'
-    ],
-    descriptions: [
-      'Cartel de Obra - MSK',
-      'Cartel de Obra - Río',
-      'Cartel de Obra - NSD',
-      'Cartel de Obra - Breconar'
     ]
   },
   'modal-carteles': {
@@ -80,6 +65,16 @@ const modalData = {
   'modal-vinilos': {
     images: [
       'img/portofolio/autoadesivo-covello.webp'
+    ]
+  },
+  'modal-comercios': {
+    images: [
+      'img/portofolio/comercios/cartel-autoelevadores-hurlingam.webp',
+      'img/portofolio/comercios/cartel-aysa.webp',
+      'img/portofolio/comercios/cartel-jilguero.webp',
+      'img/portofolio/comercios/cartel-open-dorrego.webp',
+      'img/portofolio/comercios/cartel-teloguardo.webp',
+      'img/portofolio/comercios/cartel-weber.webp'
     ]
   }
 };
