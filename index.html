@@ -22,7 +22,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <script src="https://unpkg.com/lucide@latest"></script> <!-- Technical Icons -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
 
   <!-- 🟢 CUSTOM CONFIG FOR LIGHT INDUSTRIAL THEME -->
   <script>
@@ -82,9 +82,11 @@
     <!-- Mobile Menu Panel -->
     <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
       <div class="px-4 py-4 space-y-3">
-        <a href="#servicios" class="block hover:text-brandRed transition-colors py-2">Servicios</a>
-        <a href="#proyectos" class="block hover:text-brandRed transition-colors py-2">Proyectos</a>
-        <a href="#contacto" class="block bg-brandRed text-white px-4 py-3 text-center font-bold">COTIZAR AHORA</a>
+        <a href="#cercos" class="block hover:text-brandRed transition-colors py-2">Cercos de Obra</a>
+        <a href="#cdo" class="block hover:text-brandRed transition-colors py-2">Carteles</a>
+        <a href="#caballetes" class="block hover:text-brandRed transition-colors py-2">Caballetes</a>
+        <a href="#proyectos" class="block hover:text-brandRed transition-colors py-2">Portfolio</a>
+        <a href="#contacto" class="block bg-brandRed text-white px-4 py-3 text-center font-bold">CONTACTO</a>
       </div>
     </div>
   </nav>
@@ -123,14 +125,14 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
 
     <!-- 🟢 CERCOS DE OBRA -->
-    <section id="cercos" class="mb-32">
+    <section id="cercos" class="mb-16 md:mb-32">
       <div class="mb-12 border-b border-gray-200 pb-4">
         <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Vallado de Obra</h2>
         <span class="font-mono text-brandRed hidden md:block">Fabricación e instalación profesional de cercos para
           obras en Buenos Aires</span>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[435px]">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(435px,_auto)]">
 
         <!-- Large Card: Cerco Doble Hoja -->
         <article
@@ -214,8 +216,8 @@
     </section>
 
     <!-- 🟢 CARTEL DE OBRA -->
-    <section id="cdo" class="mb-32">
-      <div class="mb-12 border-b border-gray-200 pb-4 text-right">
+    <section id="cdo" class="mb-16 md:mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4 md:text-right">
         <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Cartel de Obra</h2>
         <span class="font-mono text-brandRed hidden md:block">Cumplimiento normativo y visibilidad para Obras en Capital
           Federal</span>
@@ -359,8 +361,8 @@
 
 
     <!-- 🟢 PROYECTOS / PORTFOLIO -->
-    <section id="proyectos" class="mb-32">
-      <div class="mb-12 border-b border-gray-200 pb-4 text-right">
+    <section id="proyectos" class="mb-16 md:mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4 md:text-right">
         <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Nuestros Trabajos</h2>
         <span class="font-mono text-brandRed hidden md:block">Ofrecemos un amplio rango de opciones de publicidad para
           <strong> Obras, Empresas y Comercios</strong></span>
@@ -368,9 +370,9 @@
 
       <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div
-          class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer"
+          class="col-span-1 md:col-span-2 row-span-1 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer md:h-auto"
           onclick="openModal('modal-carteles')">
-          <img src="img/portofolio/carteles/cartel-torres-de-caballito.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/carteles/cartel-torres-de-caballito.webp" alt="Cartel Torres de Caballito"
             class="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -381,7 +383,7 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-lonas')">
-          <img src="img/portofolio/lona-forbex.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/lona-forbex.webp" alt="Lona Forbex"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -391,9 +393,9 @@
           </div>
         </div>
         <div
-          class="md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer"
+          class="md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer md:h-auto"
           onclick="openModal('modal-gigantografias')">
-          <img src="img/portofolio/gigantografia/gigantografia-chateau-libertador.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/gigantografia/gigantografia-chateau-libertador.webp" alt="Gigantografia Chateau Libertador"
             class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -404,7 +406,7 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-caballetes')">
-          <img src="img/portofolio/caballete/caballete-olleros.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/caballete/caballete-olleros.webp" alt="Caballete de madera"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -415,7 +417,7 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-cdo')">
-          <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Proyecto Leka"
+          <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -424,9 +426,9 @@
             <h4 class="text-lg font-bold text-gray-900">Cartel de Obra</h4>
           </div>
         </div>
-        <div class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+        <div class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square cursor-pointer md:h-auto"
           onclick="openModal('modal-cercos')">
-          <img src="img/portofolio/cercos/cerco-de-obra-emilio-lamarca-1024.avif" alt="Proyecto Leka"
+          <img src="img/portofolio/cercos/cerco-de-obra-emilio-lamarca-1024.avif" alt="Cerco de obra con portón corredizo instalado en construcción en Buenos Aires"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -438,7 +440,7 @@
 
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-inmobiliaria')">
-          <img src="img/portofolio/inmobiliaria/cartel-inmobiliaria-covello.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/inmobiliaria/cartel-inmobiliaria-covello.webp" alt="Cartel para Inmobiliaria"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -449,7 +451,7 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-comercios')">
-          <img src="img/portofolio/comercios/cartel-teloguardo.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/comercios/cartel-teloguardo.webp" alt="Carteles para Comercios"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -458,9 +460,9 @@
             <h4 class="text-lg font-bold text-gray-900">Carteles para Comercios</h4>
           </div>
         </div>
-        <div class="col-start-4 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
+        <div class="md:col-start-4 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-vinilos')">
-          <img src="img/portofolio/autoadesivo-covello.webp" alt="Proyecto Leka"
+          <img src="img/portofolio/autoadesivo-covello.webp" alt="Gráfica autoadhesiva"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
@@ -478,17 +480,17 @@
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-carteles-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
-            <button onclick="prevImage()"
-              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
-            <button onclick="nextImage()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+            <button onclick="prevImage(event)"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
+            <button onclick="nextImage(event)"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8250;</button>
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -508,17 +510,17 @@
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-gigantografias-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
-            <button onclick="prevImage()"
-              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
-            <button onclick="nextImage()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+            <button onclick="prevImage(event)"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
+            <button onclick="nextImage(event)"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8250;</button>
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -561,17 +563,17 @@
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-inmobiliaria-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
-            <button onclick="prevImage()"
-              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
-            <button onclick="nextImage()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+            <button onclick="prevImage(event)"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
+            <button onclick="nextImage(event)"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8250;</button>
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -614,17 +616,17 @@
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-caballetes-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
-            <button onclick="prevImage()"
-              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
-            <button onclick="nextImage()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+            <button onclick="prevImage(event)"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
+            <button onclick="nextImage(event)"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8250;</button>
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -637,25 +639,24 @@
       </div>
     </div>
 
-    <!-- 🟢 CERCOS MODAL -->
     <div id="modal-cercos" class="fixed inset-0 z-[100] hidden">
       <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-cercos-img" class="w-full h-auto max-h-[60vh] object-cover mx-auto"
               srcset="img/portofolio/cercos/cerco-de-obra-one-place-320.avif 320w, img/portofolio/cercos/cerco-de-obra-one-place-640.avif 640w, img/portofolio/cercos/cerco-de-obra-one-place-1024.avif 1024w"
               sizes="(max-width: 768px) 100vw, 1024px">
-            <button onclick="prevImage()"
-              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
-            <button onclick="nextImage()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+            <button onclick="prevImage(event)"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
+            <button onclick="nextImage(event)"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8250;</button>
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -674,10 +675,10 @@
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-cdo-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
@@ -699,17 +700,17 @@
       <div class="relative h-full flex items-center justify-center p-4" onclick="closeModal()">
         <button onclick="closeModal()"
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
-        <button onclick="prevImage()"
-          class="absolute left-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&lt;</button>
-        <button onclick="nextImage()"
-          class="absolute right-4 text-gray-500 hover:text-brandRed text-4xl transition-colors hidden md:block">&gt;</button>
+        <button onclick="prevImage(event)"
+          class="absolute left-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8249;</button>
+        <button onclick="nextImage(event)"
+          class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-comercios-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
-            <button onclick="prevImage()"
-              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&lt;</button>
-            <button onclick="nextImage()"
-              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-500 hover:text-brandRed text-3xl bg-white/80 rounded-full w-10 h-10">&gt;</button>
+            <button onclick="prevImage(event)"
+              class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
+            <button onclick="nextImage(event)"
+              class="absolute right-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8250;</button>
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -724,7 +725,7 @@
     </div>
 
     <!-- 🟢 SOBRE NOSOTROS -->
-    <section class="mb-32">
+    <section class="mb-16 md:mb-32">
       <div class="mb-12 border-b border-gray-200 pb-4">
         <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Acerca de <span class="text-brandRed">Leka</span>
         </h2>
@@ -734,7 +735,7 @@
       <!-- Two column: text left, stats right -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
         <!-- Left: Text Content -->
-        <div class="space-y-6 text-justify">
+        <div class="space-y-6 text-justify order-2 md:order-1">
           <p class="font-bold leading-relaxed">
             Contamos con una amplia experiencia en el sector y el know-how necesario para comunicar el mensaje que tu
             obra necesita, siempre con un enfoque en la calidad y la atención personalizada.
@@ -756,21 +757,21 @@
         </div>
 
         <!-- Right: Stats (3 rows, centered, 50% width) -->
-        <div class="grid grid-rows-3 gap-4 min-w-[40%] mx-auto">
+        <div class="grid grid-cols-3 md:grid-rows-3 md:grid-cols-1 gap-4 min-w-[40%] mx-auto order-1 md:order-2">
           <div class="flex flex-col justify-center text-center p-4 bg-concrete border border-gray-200">
-            <div class="text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
+            <div class="text-3xl md:text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
                 data-target="35">0</span>
             </div>
             <p class="text-sm font-mono text-gray-500 uppercase tracking-tighter">Años</p>
           </div>
           <div class="flex flex-col justify-center text-center p-4 bg-concrete border border-gray-200">
-            <div class="text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
+            <div class="text-3xl md:text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
                 data-target="5">0</span>k
             </div>
             <p class="text-sm font-mono text-gray-500 uppercase tracking-tighter">Obras</p>
           </div>
           <div class="flex flex-col justify-center text-center p-4 bg-concrete border border-gray-200">
-            <div class="text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
+            <div class="text-3xl md:text-4xl font-bold text-gray-900 mb-1">+<span class="inline-block counter"
                 data-target="800">0</span></div>
             <p class="text-sm font-mono text-gray-500 uppercase tracking-tighter">Clientes</p>
           </div>
@@ -938,14 +939,14 @@
   </div>
 
   <!-- 🟢 FOOTER -->
-  <footer class="bg-gray-900 pt-20 pb-10">
+  <footer class="bg-gray-900 pt-20 pb-10 text-center md:text-left">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
-        <img src="img/sml-brand.png" alt="Leka Publicidad" class="h-10 w-auto mb-6">
+        <img src="img/sml-brand.png" alt="Leka Publicidad" class="h-10 w-auto mb-6 ml-auto mr-auto md:ml-0">
         <p class="mt-6 text-gray-400 max-w-sm">
           Soluciones integrales de comunicación visual para la industria de la construcción.
         </p>
-        <div class="mt-8 flex flex-wrap gap-4">
+        <div class="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
           <a href="https://wa.me/541137573070"
             class="bg-[#25D366] text-white px-6 py-3 font-bold hover:bg-[#128C7E] transition-colors flex items-center gap-2">
             <i data-lucide="message-circle"></i> WHATSAPP
@@ -956,12 +957,12 @@
           </a>
         </div>
       </div>
-      <div class="font-mono text-sm text-gray-400 md:text-right space-y-2">
+      <div class="font-mono text-sm text-gray-400 md:text-right space-y-2 ml-auto mr-auto md:mr-0">
         <p class="text-white font-bold uppercase tracking-widest">Contacto Directo</p>
         <p class="pt-4 text-white">Tel: 11 3757 - 3070</p>
         <p>carteles@lekapublicidad.com.ar</p>
         <p class="pt-4 ">Buenos Aires, Argentina</p>
-        <div class="flex md:justify-end gap-4 pt-6">
+        <div class="flex md:justify-end gap-4 pt-6 justify-center">
           <a href="https://www.instagram.com/lekapublicidad" class="hover:text-brandRed transition-colors"><i
               data-lucide="instagram"></i></a>
           <a href="https://www.facebook.com/lekapublicidad" class="hover:text-brandRed transition-colors"><i
@@ -972,7 +973,7 @@
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-4 mt-20 pt-8 border-t border-gray-800 text-center text-gray-500 text-xs font-mono">
-      &copy; 2026 LEKA PUBLICIDAD. TODOS LOS DERECHOS RESERVADOS.
+      &copy; <span id="year"></span> LEKA PUBLICIDAD. TODOS LOS DERECHOS RESERVADOS.
     </div>
   </footer>
 

@@ -111,3 +111,10 @@ function copyEmail() {
     }, 3000);
   });
 }
+
+// Get Year for Copyright
+document.addEventListener('DOMContentLoaded', function () {
+  let d = new Date();
+  let n = d.getFullYear();
+  document.getElementById('year').innerHTML = n;
+});

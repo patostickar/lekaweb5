@@ -120,14 +120,16 @@ function updateModalImage() {
   }
 }
 
-function nextImage() {
+function nextImage(e) {
+  if (e) e.stopPropagation();
   if (!currentModal || !modalData[currentModal]) return;
   const data = modalData[currentModal];
   currentImageIndex = (currentImageIndex + 1) % data.images.length;
   updateModalImage();
 }
 
-function prevImage() {
+function prevImage(e) {
+  if (e) e.stopPropagation();
   if (!currentModal || !modalData[currentModal]) return;
   const data = modalData[currentModal];
   currentImageIndex = (currentImageIndex - 1 + data.images.length) % data.images.length;
