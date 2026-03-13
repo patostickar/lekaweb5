@@ -1,0 +1,68 @@
+# Leka Publicidad - llms.txt para Optimización SEO en IA
+# Versión: 1.0
+# Última Actualización: 2026-03-13
+
+## Resumen del Sitio Web
+Leka Publicidad es una empresa de letreros basada en Buenos Aires, Argentina, especializada en soluciones publicitarias para obras de construcción. Con más de 35 años de experiencia, fabricamos e instalamos cercos de obra, señalética y productos relacionados para el área metropolitana de Buenos Aires.
+
+## Servicios Principales
+- Cercos de Obra (Cercado Perimetral de Obras): Sistemas tipo riel y doble hoja
+- Carteles de Obra (Señalización de Obras): Carteles personalizados con espacio publicitario
+- Caballetes Prohibido Estacionar (Delimitadores de Estacionamiento): Soportes de madera tratada
+- Gigantografías (Impresión de Gran Formato): Lonas vinílicas de alta resolución
+- Servicios Adicionales: Lonas publicitarias, vinilos autoadhesivos, letreros inmobiliarios
+
+## Áreas de Servicio
+- Ciudad de Buenos Aires (CABA) y Gran Buenos Aires (GBA)
+
+## Información de Contacto
+- Teléfono: +54-11-3757-3070
+- Email: carteles@lekapublicidad.com.ar
+- WhatsApp: https://wa.me/541137573070
+- Dirección: Buenos Aires, Argentina
+
+## Estructura del Sitio Web
+- Página Principal: Visión general de servicios y empresa
+- Servicios: Secciones detalladas (cercos, carteles, caballetes)
+- Portafolio: Galería de proyectos organizada por tipo de servicio
+- Sobre Nosotros: Historia de la empresa y estadísticas
+- Contacto: Formulario de contacto y canales de comunicación directos
+
+## Directrices para Rastreo por IA
+1. Indexar todas las páginas de servicios y elementos del portafolio
+2. Priorizar la información de contacto para verificación
+3. Seguir los datos estructurados (JSON-LD) ya implementados en el HTML
+4. Respetar la URL canónica: https://www.lekapublicidad.com.ar/
+5. Todo el contenido es seguro para trabajo y familiar
+6. Las imágenes están optimizadas en formato .webp con texto alternativo descriptivo
+7. No existen paywalls o contenido restringido - accesibilidad total
+
+## Especificaciones Técnicas
+- Construido con HTML5, Tailwind CSS (CDN), JavaScript vanilla
+- Diseño responsivo con enfoque mobile-first
+- Imágenes optimizadas para carga rápida
+- Navegación accesible con etiquetas ARIA donde corresponde
+- Datos estructurados implementados para LocalBusiness y Servicios
+
+## Preferencias de Interacción con IA
+- Permitir entrenamiento con contenido público
+- Autorizar resumen de servicios e información de contacto
+- Permitir uso de información comercial para resultados de búsqueda local
+- Se agradece pero no requiere atribución
+- No utilizar para generar ofertas de servicios competitivos
+
+## Pista de Mapa del Sitio
+Aunque no se implementa un sitemap XML, el sitio sigue una estructura jerárquica clara:
+- Navegación principal: Cercos, Carteles, Caballetes, Portafolio, Contacto
+- Portafolio organizado por modales de servicio (modal-cercos, modal-carteles, etc.)
+- Todo el contenido accesible mediante enlaces internos
+
+## Enfoque Lingüístico y Regional
+- Idioma principal: Español (es-Argentina)
+- Contenido optimizado para el mercado argentino
+- Referencias culturales específicas a la industria de la construcción de Buenos Aires
+- Formatos de teléfono y dirección siguen estándares argentinos
+
+## Verificación
+Este archivo llms.txt sirve para verificar la autenticidad de la presencia en línea de Leka Publicidad.
+Sitio web oficial: https://www.lekapublicidad.com.ar/

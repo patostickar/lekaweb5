@@ -45,6 +45,85 @@
     }
   </script>
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- 🟢 JSON-LD STRUCTURED DATA FOR SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.lekapublicidad.com.ar/#business",
+        "name": "Leka Publicidad",
+        "description": "Fabricamos carteles, cercos de obra y caballetes en Buenos Aires. Más de 30 años de experiencia en publicidad para construcciones.",
+        "url": "https://www.lekapublicidad.com.ar/",
+        "telephone": "+54-11-3757-3070",
+        "email": "carteles@lekapublicidad.com.ar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Buenos Aires",
+          "addressCountry": "AR"
+        },
+        "areaServed": {
+          "@type": "State",
+          "name": "Buenos Aires"
+        },
+        "priceRange": "$$",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        "image": "https://www.lekapublicidad.com.ar/img/sml-brand.png"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.lekapublicidad.com.ar/#cercos",
+        "name": "Cercos de Obra",
+        "description": "Fabricación e instalación de cercos de obra tipo riel y doble hoja. Resistencia garantizada para obras en Buenos Aires.",
+        "provider": {
+          "@type": "LocalBusiness",
+          "@id": "https://www.lekapublicidad.com.ar/#business"
+        },
+        "serviceType": "Construction"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.lekapublicidad.com.ar/#carteles",
+        "name": "Carteles de Obra",
+        "description": "Diseño y fabricación de carteles para emprendimientos inmobiliarios. Carteles de obra, señalética y branding para construcciones.",
+        "provider": {
+          "@type": "LocalBusiness",
+          "@id": "https://www.lekapublicidad.com.ar/#business"
+        },
+        "serviceType": "Advertising"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.lekapublicidad.com.ar/#caballetes",
+        "name": "Caballetes Prohibido Estacionar",
+        "description": "Robustos delimitadores de estacionamiento para obras. Fabricados en madera tratada con pintura para exterior.",
+        "provider": {
+          "@type": "LocalBusiness",
+          "@id": "https://www.lekapublicidad.com.ar/#business"
+        },
+        "serviceType": "Construction"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.lekapublicidad.com.ar/#gigantografias",
+        "name": "Gigantografías",
+        "description": "Impresión de gigantografías en lona de alta calidad para publicidad de obras y empresas.",
+        "provider": {
+          "@type": "LocalBusiness",
+          "@id": "https://www.lekapublicidad.com.ar/#business"
+        },
+        "serviceType": "Advertising"
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body class="bg-white text-gray-700 font-manrope antialiased selection:bg-brandRed selection:text-white">
@@ -486,7 +565,7 @@
           class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-carteles-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-carteles-img" alt="Cartel de Obra" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
             <button onclick="prevImage(event)"
               class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
             <button onclick="nextImage(event)"
@@ -516,7 +595,7 @@
           class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-gigantografias-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-gigantografias-img" alt="Gigantografia" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
             <button onclick="prevImage(event)"
               class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
             <button onclick="nextImage(event)"
@@ -569,7 +648,7 @@
           class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-inmobiliaria-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-inmobiliaria-img" alt="Cartel de Vende / Alquila" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
             <button onclick="prevImage(event)"
               class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
             <button onclick="nextImage(event)"
@@ -622,7 +701,7 @@
           class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-caballetes-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-caballetes-img" alt="Caballete de Estacionamiento" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
             <button onclick="prevImage(event)"
               class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
             <button onclick="nextImage(event)"
@@ -681,7 +760,7 @@
           class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-cdo-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-cdo-img" alt="Cartel de Obra" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -706,7 +785,7 @@
           class="absolute right-4 text-gray-800 hover:text-brandRed text-5xl z-10 transition-colors hidden md:block">&#8250;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-comercios-img" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-comercios-img" alt="Cartel para Marcas y Comercios" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
             <button onclick="prevImage(event)"
               class="absolute left-2 top-1/2 -translate-y-1/2 md:hidden text-gray-800 hover:text-brandRed text-4xl bg-white/90 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">&#8249;</button>
             <button onclick="nextImage(event)"
