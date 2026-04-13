@@ -2,22 +2,22 @@
 const modalData = {
   'modal-cercos': {
     images: [
-      'img/portofolio/cercos/cerco-de-obra-one-place-1024.avif',
-      'img/portofolio/cercos/cerco-de-obra-spinelli-1024.avif',
-      'img/portofolio/cercos/cerco-de-obra-vaccaro-1080.avif',
-      'img/portofolio/cercos/cerco-de-obra-falcon-1024.avif',
-      'img/portofolio/cercos/cerco-de-obra-marcos-perez-1024.avif',
-      'img/portofolio/cercos/cerco-de-obra-pedron-moran-1024.avif',
-      'img/portofolio/cercos/cerco-de-obra-emilio-lamarca-1024.avif'
-    ],
-    srcsets: [
-      'img/portofolio/cercos/cerco-de-obra-one-place-320.avif 320w, img/portofolio/cercos/cerco-de-obra-one-place-640.avif 640w, img/portofolio/cercos/cerco-de-obra-one-place-1024.avif 1024w',
-      'img/portofolio/cercos/cerco-de-obra-spinelli-320.avif 320w, img/portofolio/cercos/cerco-de-obra-spinelli-640.avif 640w, img/portofolio/cercos/cerco-de-obra-spinelli-1024.avif 1024w',
-      'img/portofolio/cercos/cerco-de-obra-vaccaro-320.avif 320w, img/portofolio/cercos/cerco-de-obra-vaccaro-640.avif 640w, img/portofolio/cercos/cerco-de-obra-vaccaro-1080.avif 1080w',
-      'img/portofolio/cercos/cerco-de-obra-falcon-320.avif 320w, img/portofolio/cercos/cerco-de-obra-falcon-640.avif 640w, img/portofolio/cercos/cerco-de-obra-falcon-1024.avif 1024w',
-      'img/portofolio/cercos/cerco-de-obra-marcos-perez-320.avif 320w, img/portofolio/cercos/cerco-de-obra-marcos-perez-640.avif 640w, img/portofolio/cercos/cerco-de-obra-marcos-perez-1024.avif 1024w',
-      'img/portofolio/cercos/cerco-de-obra-pedron-moran-320.avif 320w, img/portofolio/cercos/cerco-de-obra-pedron-moran-640.avif 640w, img/portofolio/cercos/cerco-de-obra-pedron-moran-1024.avif 1024w',
-      'img/portofolio/cercos/cerco-de-obra-emilio-lamarca-320.avif 320w, img/portofolio/cercos/cerco-de-obra-emilio-lamarca-640.avif 640w, img/portofolio/cercos/cerco-de-obra-emilio-lamarca-1024.avif 1024w'
+      'img/portofolio/cercos/corredizo/cerco-de-obra-one-place.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-as-corredizo.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-as-esquina.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-falcon.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-plz-left.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-plz-right.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-ramallo-4892.avif',
+      'img/portofolio/cercos/corredizo/cerco-de-obra-spinelli.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-dicaba.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-bk-ark.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-bowas.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-bring.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-century-21.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-marcos-paz-4053.avif',
+      'img/portofolio/cercos/doble-hoja/cerco-de-obra-palestina.avif',
+      'img/portofolio/cercos/sin-apertura/cerco-de-obra-vaccaro.avif',
     ]
   },
   'modal-cdo': {
@@ -51,10 +51,9 @@ const modalData = {
   },
   'modal-caballetes': {
     images: [
-      'img/portofolio/caballete/caballete-olleros.webp',
-      'img/portofolio/caballete/caballete-garcia-del-rio.webp',
-      'img/portofolio/caballete/caballete-chivilcoy.webp',
-      'img/portofolio/caballete/caballete-soae.webp'
+      'img/portofolio/caballete/caballete-coinsa.avif',
+      'img/portofolio/caballete/caballete-msr.avif',
+      'img/portofolio/caballete/caballete-schiaffino.avif'
     ]
   },
   'modal-lonas': {
