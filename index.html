@@ -17,10 +17,13 @@
   <!-- 🟢 2026 AESTHETIC: FONTS & ICONS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
+  <link rel="preload" as="style"
     href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;500;700&family=Manrope&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;500;700&family=Manrope&display=swap">
+  </noscript>
   <script src="https://unpkg.com/lucide@1.6.0/dist/umd/lucide.min.js"></script>
   <script src="https://cdn.tailwindcss.com/3.4.17" data-cfasync="false" type="text/javascript"></script>
 
@@ -176,8 +179,12 @@
     <div class="absolute inset-0 bg-gradient-to-t from-white z-10"></div>
     <!-- Background (Replace generic image with Drone Footage) -->
     <div id="hero-bg" class="absolute inset-0 z-0 overflow-hidden">
-      <img src="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=2070&auto=format&fit=crop"
-        alt="Construction Site Background" class="w-full h-full object-cover opacity-40 ken-burns">
+      <img src="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=1920&auto=format&fit=crop"
+        srcset="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=828&auto=format&fit=crop 828w,
+                https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=1920&auto=format&fit=crop 1920w"
+        sizes="100vw"
+        alt="Construction Site Background" class="w-full h-full object-cover opacity-40 ken-burns"
+        fetchpriority="high">
     </div>
 
     <div class="relative z-20 font-sans text-center max-w-5xl px-4">
@@ -218,7 +225,7 @@
           class="md:col-span-2 relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/corredizo/cerco-de-obra-one-place.avif" alt="Cerco de Obra Corredizo"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <!-- <h3 class="text-3xl font-bold text-gray-900 mb-2">Cercos de Obra</h3> -->
@@ -234,7 +241,7 @@
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/doble-hoja/cerco-de-obra-dicaba.avif" alt="Cerco de Obra Doble Hoja"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-brandRed font-bold mb-4 hover:text-gray-900 flex items-center gap-2">PORTON DOBLE HOJA</p>
@@ -291,7 +298,7 @@
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/sin-apertura/cerco-de-obra-vaccaro.avif" alt="Cerco de Obra Sin Apertura"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/30"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-brandRed font-bold mb-4 hover:text-gray-900 flex items-center gap-2">SIN APERTURA</p>
@@ -317,27 +324,27 @@
           <div id="cdo-carousel" class="flex h-full transition-transform duration-700">
             <div class="w-full h-full flex-shrink-0">
               <img src="img/portofolio/cdo/cartel-de-obra-breconar.jpg" alt="Cartel de Obra Breconar"
-                class="w-full h-full object-cover">
+                loading="lazy" class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full flex-shrink-0">
               <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra MSK"
-                class="w-full h-full object-cover">
+                loading="lazy" class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full flex-shrink-0">
               <img src="img/portofolio/cdo/cartel-de-obra-nsd.jpg" alt="Cartel de Obra NSD"
-                class="w-full h-full object-cover">
+                loading="lazy" class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full flex-shrink-0">
               <img src="img/portofolio/cdo/cartel-de-obra-rio.jpg" alt="Cartel de Obra Rio"
-                class="w-full h-full object-cover">
+                loading="lazy" class="w-full h-full object-cover">
             </div>
           </div>
           <!-- Carousel Dots -->
           <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="0"></button>
-            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="1"></button>
-            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="2"></button>
-            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="3"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="0" aria-label="Imagen 1"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="1" aria-label="Imagen 2"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="2" aria-label="Imagen 3"></button>
+            <button class="cdo-dot w-2 h-2 rounded-full bg-white/70 hover:bg-white transition" data-index="3" aria-label="Imagen 4"></button>
           </div>
         </div>
 
@@ -397,7 +404,7 @@
         <div
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 h-full min-h-[400px]">
           <img src="img/portofolio/caballete/caballete-coinsa.avif" alt="Caballete Prohibido Estacionar"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
@@ -440,7 +447,7 @@
         <div
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 h-full min-h-[400px]">
           <img src="img/portofolio/caballete/caballete-msr.avif" alt="Caballete Prohibido Estacionar"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
@@ -465,7 +472,7 @@
           class="col-span-1 md:col-span-2 row-span-1 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer md:h-auto"
           onclick="openModal('modal-carteles')">
           <img src="img/portofolio/carteles/cartel-torres-de-caballito.webp" alt="Cartel Torres de Caballito"
-            class="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -476,7 +483,7 @@
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-lonas')">
           <img src="img/portofolio/lona-forbex.webp" alt="Lona Forbex"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -489,7 +496,7 @@
           onclick="openModal('modal-gigantografias')">
           <img src="img/portofolio/gigantografia/gigantografia-chateau-libertador.webp"
             alt="Gigantografia Chateau Libertador"
-            class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -500,7 +507,7 @@
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-caballetes')">
           <img src="img/portofolio/caballete/caballete-schiaffino.avif" alt="Caballete de madera"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -511,7 +518,7 @@
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-cdo')">
           <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -524,7 +531,7 @@
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/viejos/cerco-de-obra-emilio-lamarca-1024.avif"
             alt="Cerco de obra con portón corredizo instalado en construcción en Buenos Aires"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -536,7 +543,7 @@
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-inmobiliaria')">
           <img src="img/portofolio/inmobiliaria/cartel-inmobiliaria-covello.webp" alt="Cartel para Inmobiliaria"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -547,7 +554,7 @@
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-comercios')">
           <img src="img/portofolio/comercios/cartel-teloguardo.webp" alt="Carteles para Comercios"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -558,7 +565,7 @@
         <div class="md:col-start-4 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-vinilos')">
           <img src="img/portofolio/autoadesivo-covello.webp" alt="Gráfica autoadhesiva"
-            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -639,7 +646,7 @@
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-lonas-img" src="img/portofolio/lona-forbex.webp" alt="Lona Forbex"
-              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+              loading="lazy" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -693,7 +700,7 @@
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
             <img id="modal-vinilos-img" src="img/portofolio/autoadesivo-covello.webp" alt="Autoadhesivo Covello"
-              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+              loading="lazy" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -881,47 +888,47 @@
       <p class="font-mono text-gray-500 mb-8 uppercase tracking-widest">Confían su publicidad en Nosotros</p>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-2 items-center justify-items-center">
         <a href="https://arcomaquinarias.com/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/arco.webp" alt="Arco"
+          <img src="img/logos/arco.webp" alt="Arco" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://www.etaelectro.com/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/baw.jpg" alt="Baw"
+          <img src="img/logos/baw.jpg" alt="Baw" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="https://www.caldaia.com.ar/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/caldaia.webp" alt="Caldaia"
+          <img src="img/logos/caldaia.webp" alt="Caldaia" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://www.kalciyan.com.ar/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/kalciyan.webp" alt="Kalciyan"
+          <img src="img/logos/kalciyan.webp" alt="Kalciyan" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="https://cortinasmetalicasmagallan.com/2018/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/magallan.webp" alt="Magallan"
+          <img src="img/logos/magallan.webp" alt="Magallan" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://mansilladerqui.com.ar/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/mansilla.webp" alt="Mansilla"
+          <img src="img/logos/mansilla.webp" alt="Mansilla" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://griferiapeirano.com/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/peirano.webp" alt="Peirano"
+          <img src="img/logos/peirano.webp" alt="Peirano" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://perfecto.com.ar/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/perfecto.webp" alt="Perfecto"
+          <img src="img/logos/perfecto.webp" alt="Perfecto" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://pvcevolution.com/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/pvc.webp" alt="Pvc"
+          <img src="img/logos/pvc.webp" alt="Pvc" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="http://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/rheem.webp" alt="Rheem"
+          <img src="img/logos/rheem.webp" alt="Rheem" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
         <a href="https://www.roker.com.ar/" target="_blank" rel="noopener noreferrer">
-          <img src="img/logos/rocker.webp" alt="Rocker"
+          <img src="img/logos/rocker.webp" alt="Rocker" width="300" height="170" loading="lazy"
             class="h-24 w-auto object-contain hover:scale-110 transition-all duration-300">
         </a>
       </div>
@@ -1043,7 +1050,7 @@
   <footer class="bg-gray-900 pt-20 pb-10 text-center md:text-left">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
-        <img src="img/sml-brand.png" alt="Leka Publicidad" class="h-10 w-auto mb-6 ml-auto mr-auto md:ml-0">
+        <img src="img/sml-brand.png" alt="Leka Publicidad" loading="lazy" class="h-10 w-auto mb-6 ml-auto mr-auto md:ml-0">
         <p class="mt-6 text-gray-400 max-w-sm">
           Soluciones integrales de comunicación visual para la industria de la construcción.
         </p>
@@ -1064,12 +1071,15 @@
         <p>carteles@lekapublicidad.com.ar</p>
         <p class="pt-4 ">Buenos Aires, Argentina</p>
         <div class="flex md:justify-end gap-4 pt-6 justify-center">
-          <a href="https://www.instagram.com/lekapublicidad" class="hover:text-brandRed transition-colors"><i
-              data-lucide="instagram"></i></a>
-          <a href="https://www.facebook.com/lekapublicidad" class="hover:text-brandRed transition-colors"><i
-              data-lucide="facebook"></i></a>
-          <a href="https://www.linkedin.com/company/leka-publicidad/" class="hover:text-brandRed transition-colors"><i
-              data-lucide="linkedin"></i></a>
+          <a href="https://www.instagram.com/lekapublicidad" class="hover:text-brandRed transition-colors" aria-label="Instagram de Leka Publicidad">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.facebook.com/lekapublicidad" class="hover:text-brandRed transition-colors" aria-label="Facebook de Leka Publicidad">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/leka-publicidad/" class="hover:text-brandRed transition-colors" aria-label="LinkedIn de Leka Publicidad">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
         </div>
       </div>
     </div>
@@ -1081,8 +1091,8 @@
   <!-- WhatsApp Float -->
   <a href="https://wa.me/541137573070"
     class="group fixed bottom-8 right-8 w-14 h-14 bg-[#25d366] text-white rounded-full flex items-center justify-center text-3xl shadow-[0_4px_15px_rgba(37,211,102,0.4)] z-[1000] transition-transform duration-300 hover:scale-110 max-md:bottom-4 max-md:right-4"
-    target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-whatsapp relative" aria-hidden="true"></i>
+    target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 relative" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.528 5.857L.057 23.571a.5.5 0 0 0 .601.629l5.882-1.538A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.66-.515-5.177-1.41l-.37-.22-3.488.913.929-3.4-.242-.38A9.951 9.951 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
     <span
       class="absolute right-16 bg-white text-gray-900 px-3 py-1 rounded-md text-xs font-semibold shadow-sm whitespace-nowrap opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">Escribinos
       por WhatsApp</span>
