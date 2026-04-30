@@ -112,6 +112,37 @@ function copyEmail() {
   });
 }
 
+// FAQ animated open/close
+document.querySelectorAll('#preguntas-frecuentes details').forEach(details => {
+  const summary = details.querySelector('summary');
+  const content = details.querySelector(':scope > div');
+
+  summary.addEventListener('click', e => {
+    e.preventDefault();
+
+    if (details.open) {
+      content.style.overflow = 'hidden';
+      const anim = content.animate(
+        [{ height: content.scrollHeight + 'px', opacity: 1 }, { height: '0px', opacity: 0 }],
+        { duration: 200, easing: 'ease-in', fill: 'forwards' }
+      );
+      anim.onfinish = () => {
+        anim.cancel();
+        details.removeAttribute('open');
+        content.style.overflow = '';
+      };
+    } else {
+      details.setAttribute('open', '');
+      const height = content.scrollHeight;
+      content.style.overflow = 'hidden';
+      content.animate(
+        [{ height: '0px', opacity: 0 }, { height: height + 'px', opacity: 1 }],
+        { duration: 250, easing: 'ease-out' }
+      ).onfinish = () => { content.style.overflow = ''; };
+    }
+  });
+});
+
 // Get Year for Copyright
 document.addEventListener('DOMContentLoaded', function () {
   let d = new Date();

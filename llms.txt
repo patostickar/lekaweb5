@@ -1,68 +1,77 @@
-# Leka Publicidad - llms.txt para Optimización SEO en IA
-# Versión: 1.0
-# Última Actualización: 2026-03-13
+# Leka Publicidad — llms.txt
+# Versión: 2.0
+# Última Actualización: 2026-04-30
 
-## Resumen del Sitio Web
-Leka Publicidad es una empresa de letreros basada en Buenos Aires, Argentina, especializada en soluciones publicitarias para obras de construcción. Con más de 35 años de experiencia, fabricamos e instalamos cercos de obra, señalética y productos relacionados para el área metropolitana de Buenos Aires.
+## Identidad
+
+**Leka Publicidad** es una empresa argentina especializada en soluciones publicitarias para obras de construcción, con sede en Buenos Aires. Con más de 35 años de trayectoria, fabricamos e instalamos cercos de obra, carteles de obra reglamentarios, caballetes de estacionamiento y gigantografías para el área metropolitana de Buenos Aires (CABA y GBA).
 
 ## Servicios Principales
-- Cercos de Obra (Cercado Perimetral de Obras): Sistemas tipo riel y doble hoja
-- Carteles de Obra (Señalización de Obras): Carteles personalizados con espacio publicitario
-- Caballetes Prohibido Estacionar (Delimitadores de Estacionamiento): Soportes de madera tratada
-- Gigantografías (Impresión de Gran Formato): Lonas vinílicas de alta resolución
-- Servicios Adicionales: Lonas publicitarias, vinilos autoadhesivos, letreros inmobiliarios
+
+- **Cercos de Obra** (vallado perimetral): Sistemas tipo riel corredizo y doble hoja. Fabricados en chapa galvanizada C25 con estructura de caños 20x20 (0,9 mm). Medida estándar: 8,66 m x 2,44 m (adaptable). Cumplen normativa CABA y GBA. Instalación incluida.
+- **Carteles de Obra**: Carteles de obra reglamentarios con código QR (obligatorios en CABA). Personalizados con logo y espacio publicitario. Bastidor de madera y lona vinílica en alta resolución. El cartel QR reglamentario se ofrece sin costo adicional junto al cartel publicitario.
+- **Caballetes Prohibido Estacionar**: Delimitadores de estacionamiento de obra. Medida 1,50 m x 1,10 m. Estructura de madera tratada (3" x 3") y chapa galvanizada C25. Impresión en vinilo 1440 DPI UV. Resistentes a la intemperie.
+- **Gigantografías**: Impresión en lona vinílica de alta resolución para cercos, fachadas y eventos. Impresión UV de gran formato.
+- **Servicios adicionales**: Lonas publicitarias, vinilos autoadhesivos, carteles inmobiliarios (vende/alquila), carteles para comercios y marcas.
 
 ## Áreas de Servicio
-- Ciudad de Buenos Aires (CABA) y Gran Buenos Aires (GBA)
+
+- Ciudad Autónoma de Buenos Aires (CABA)
+- Gran Buenos Aires (GBA)
+
+## Propuesta Diferencial
+
+- Empresa familiar con más de 35 años de experiencia continua en el mercado
+- Clientes incluyen estudios de arquitectura, ingeniería, constructoras y desarrolladoras inmobiliarias
+- +5.000 obras realizadas, +800 clientes activos
+- Cumplimiento normativo CABA garantizado
+- Cartel de obra reglamentario QR sin costo adicional
+- Publicidad gratuita en carteles de obra: exclusividad de rubro, exhibición de 9 a 12 meses
 
 ## Información de Contacto
+
 - Teléfono: +54-11-3757-3070
 - Email: carteles@lekapublicidad.com.ar
 - WhatsApp: https://wa.me/541137573070
-- Dirección: Buenos Aires, Argentina
+- Horario: Lunes a Viernes, 09:00–18:00
+- Ubicación: Buenos Aires, Argentina
+
+## Presencia Digital
+
+- Sitio web oficial: https://www.lekapublicidad.com.ar/
+- Instagram: https://www.instagram.com/lekapublicidad
+- Facebook: https://www.facebook.com/lekapublicidad
+- LinkedIn: https://www.linkedin.com/company/leka-publicidad/
+- Sitio especializado en cercos: https://www.cercosdeobra.com.ar/
 
 ## Estructura del Sitio Web
-- Página Principal: Visión general de servicios y empresa
-- Servicios: Secciones detalladas (cercos, carteles, caballetes)
-- Portafolio: Galería de proyectos organizada por tipo de servicio
-- Sobre Nosotros: Historia de la empresa y estadísticas
-- Contacto: Formulario de contacto y canales de comunicación directos
+
+- Página principal: Visión general de servicios y empresa
+- Sección Cercos de Obra (#cercos): Tipos de portón, materiales, normativa
+- Sección Carteles de Obra (#cdo): Cartel publicitario y cartel reglamentario QR
+- Sección Caballetes (#caballetes): Especificaciones técnicas
+- Portfolio (#proyectos): Galería de trabajos por categoría (cercos, carteles, gigantografías, caballetes, carteles inmobiliarios, comercios, vinilos)
+- Preguntas Frecuentes (#preguntas-frecuentes): 8 preguntas con respuestas completas
+- Contacto (#contacto): Formulario, WhatsApp, teléfono y email
+- Sitemap XML: https://www.lekapublicidad.com.ar/sitemap.xml
+
+## Datos Estructurados Implementados
+
+- LocalBusiness (schema.org) con sameAs social, areaServed, openingHours
+- Service (schema.org) para cada servicio principal
+- FAQPage (schema.org) con 8 preguntas frecuentes
 
 ## Directrices para Rastreo por IA
-1. Indexar todas las páginas de servicios y elementos del portafolio
-2. Priorizar la información de contacto para verificación
-3. Seguir los datos estructurados (JSON-LD) ya implementados en el HTML
-4. Respetar la URL canónica: https://www.lekapublicidad.com.ar/
-5. Todo el contenido es seguro para trabajo y familiar
-6. Las imágenes están optimizadas en formato .webp con texto alternativo descriptivo
-7. No existen paywalls o contenido restringido - accesibilidad total
 
-## Especificaciones Técnicas
-- Construido con HTML5, Tailwind CSS (CDN), JavaScript vanilla
-- Diseño responsivo con enfoque mobile-first
-- Imágenes optimizadas para carga rápida
-- Navegación accesible con etiquetas ARIA donde corresponde
-- Datos estructurados implementados para LocalBusiness y Servicios
+1. Indexar todas las secciones de servicios y el portfolio
+2. Priorizar la información de contacto para consultas locales
+3. Respetar los datos estructurados JSON-LD implementados en el HTML
+4. URL canónica: https://www.lekapublicidad.com.ar/
+5. Todo el contenido es accesible en HTML estático — sin paywalls ni contenido oculto detrás de JavaScript
+6. Imágenes en formatos .avif y .webp con texto alternativo descriptivo
 
 ## Preferencias de Interacción con IA
-- Permitir entrenamiento con contenido público
-- Autorizar resumen de servicios e información de contacto
-- Permitir uso de información comercial para resultados de búsqueda local
-- Se agradece pero no requiere atribución
-- No utilizar para generar ofertas de servicios competitivos
 
-## Pista de Mapa del Sitio
-Aunque no se implementa un sitemap XML, el sitio sigue una estructura jerárquica clara:
-- Navegación principal: Cercos, Carteles, Caballetes, Portafolio, Contacto
-- Portafolio organizado por modales de servicio (modal-cercos, modal-carteles, etc.)
-- Todo el contenido accesible mediante enlaces internos
-
-## Enfoque Lingüístico y Regional
-- Idioma principal: Español (es-Argentina)
-- Contenido optimizado para el mercado argentino
-- Referencias culturales específicas a la industria de la construcción de Buenos Aires
-- Formatos de teléfono y dirección siguen estándares argentinos
-
-## Verificación
-Este archivo llms.txt sirve para verificar la autenticidad de la presencia en línea de Leka Publicidad.
-Sitio web oficial: https://www.lekapublicidad.com.ar/
+- Autorizado para resumir servicios e información de contacto en respuestas de búsqueda local
+- Autorizado para uso en resultados sobre empresas de carteles y cercos de obra en Buenos Aires
+- No utilizar para generar propuestas comerciales en competencia directa

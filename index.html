@@ -14,6 +14,20 @@
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.lekapublicidad.com.ar/">
 
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.lekapublicidad.com.ar/">
+  <meta property="og:title" content="Carteles y Cercos de Obra en Buenos Aires | Leka Publicidad">
+  <meta property="og:description"
+    content="Fabricamos cercos de obra, carteles de obra y caballetes en Buenos Aires. Materiales resistentes, instalación profesional. Más de 35 años en publicidad para construcciones.">
+  <meta property="og:image" content="https://www.lekapublicidad.com.ar/img/sml-brand.png">
+  <meta property="og:locale" content="es_AR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Carteles y Cercos de Obra en Buenos Aires | Leka Publicidad">
+  <meta name="twitter:description"
+    content="Fabricamos cercos de obra, carteles de obra y caballetes en Buenos Aires. Más de 35 años en publicidad para construcciones.">
+  <meta name="twitter:image" content="https://www.lekapublicidad.com.ar/img/sml-brand.png">
+
   <!-- 🟢 2026 AESTHETIC: FONTS & ICONS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,19 +50,20 @@
         "@type": "LocalBusiness",
         "@id": "https://www.lekapublicidad.com.ar/#business",
         "name": "Leka Publicidad",
-        "description": "Fabricamos carteles, cercos de obra y caballetes en Buenos Aires. Más de 30 años de experiencia en publicidad para construcciones.",
+        "description": "Fabricamos carteles, cercos de obra y caballetes en Buenos Aires. Más de 35 años de experiencia en publicidad para construcciones.",
         "url": "https://www.lekapublicidad.com.ar/",
         "telephone": "+54-11-3757-3070",
         "email": "carteles@lekapublicidad.com.ar",
+        "foundingDate": "1990",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Buenos Aires",
           "addressCountry": "AR"
         },
-        "areaServed": {
-          "@type": "State",
-          "name": "Buenos Aires"
-        },
+        "areaServed": [
+          { "@type": "City", "name": "Ciudad Autónoma de Buenos Aires" },
+          { "@type": "AdministrativeArea", "name": "Gran Buenos Aires" }
+        ],
         "priceRange": "$$",
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -56,58 +71,133 @@
           "opens": "09:00",
           "closes": "18:00"
         },
-        "image": "https://www.lekapublicidad.com.ar/img/sml-brand.png"
+        "image": "https://www.lekapublicidad.com.ar/img/sml-brand.png",
+        "sameAs": [
+          "https://www.instagram.com/lekapublicidad",
+          "https://www.facebook.com/lekapublicidad",
+          "https://www.linkedin.com/company/leka-publicidad/"
+        ]
       },
       {
         "@type": "Service",
         "@id": "https://www.lekapublicidad.com.ar/#cercos",
         "name": "Cercos de Obra",
-        "description": "Fabricación e instalación de cercos de obra tipo riel y doble hoja. Resistencia garantizada para obras en Buenos Aires.",
-        "provider": {
-          "@type": "LocalBusiness",
-          "@id": "https://www.lekapublicidad.com.ar/#business"
-        },
-        "serviceType": "Construction"
+        "description": "Fabricación e instalación de cercos de obra tipo riel y doble hoja en chapa galvanizada C25. Reglamentarios para CABA y GBA. Medida estándar 8,66 m x 2,44 m, adaptable a cada proyecto.",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.lekapublicidad.com.ar/#business" },
+        "serviceType": "Construction",
+        "areaServed": "Buenos Aires, Argentina"
       },
       {
         "@type": "Service",
         "@id": "https://www.lekapublicidad.com.ar/#carteles",
         "name": "Carteles de Obra",
-        "description": "Diseño y fabricación de carteles para emprendimientos inmobiliarios. Carteles de obra, señalética y branding para construcciones.",
-        "provider": {
-          "@type": "LocalBusiness",
-          "@id": "https://www.lekapublicidad.com.ar/#business"
-        },
-        "serviceType": "Advertising"
+        "description": "Diseño y fabricación de carteles de obra reglamentarios con código QR para CABA. Incluye espacio publicitario para tu empresa o emprendimiento inmobiliario. Bastidor de madera y lona vinílica en alta resolución.",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.lekapublicidad.com.ar/#business" },
+        "serviceType": "Advertising",
+        "areaServed": "Buenos Aires, Argentina"
       },
       {
         "@type": "Service",
         "@id": "https://www.lekapublicidad.com.ar/#caballetes",
         "name": "Caballetes Prohibido Estacionar",
-        "description": "Robustos delimitadores de estacionamiento para obras. Fabricados en madera tratada con pintura para exterior.",
-        "provider": {
-          "@type": "LocalBusiness",
-          "@id": "https://www.lekapublicidad.com.ar/#business"
-        },
-        "serviceType": "Construction"
+        "description": "Caballetes de reserva de estacionamiento para obras. Fabricados en madera tratada y chapa galvanizada C25 con impresión en vinilo 1440 DPI UV. Medida 1,50 m x 1,10 m.",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.lekapublicidad.com.ar/#business" },
+        "serviceType": "Construction",
+        "areaServed": "Buenos Aires, Argentina"
       },
       {
         "@type": "Service",
         "@id": "https://www.lekapublicidad.com.ar/#gigantografias",
         "name": "Gigantografías",
-        "description": "Impresión de gigantografías en lona de alta calidad para publicidad de obras y empresas.",
-        "provider": {
-          "@type": "LocalBusiness",
-          "@id": "https://www.lekapublicidad.com.ar/#business"
-        },
-        "serviceType": "Advertising"
+        "description": "Impresión de gigantografías en lona vinílica de alta calidad para publicidad en cercos de obra, fachadas y eventos en Buenos Aires.",
+        "provider": { "@type": "LocalBusiness", "@id": "https://www.lekapublicidad.com.ar/#business" },
+        "serviceType": "Advertising",
+        "areaServed": "Buenos Aires, Argentina"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.lekapublicidad.com.ar/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Trabajan en toda el área metropolitana de Buenos Aires?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, ofrecemos fabricación e instalación de cercos de obra, carteles y caballetes en la Ciudad Autónoma de Buenos Aires (CABA) y en el Gran Buenos Aires (GBA). Para consultas sobre otras zonas del interior de la provincia, contactanos directamente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿El cerco de obra es obligatorio en CABA?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, el cerco perimetral de obra es obligatorio en la Ciudad de Buenos Aires (CABA) según la normativa vigente. Debe cubrir el frente de la construcción con una altura mínima reglamentaria de 2,44 m. En Leka Publicidad fabricamos e instalamos cercos que cumplen con todas las normativas de CABA y GBA."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la medida estándar de un cerco de obra?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La medida estándar de nuestros cercos de obra es de 8,66 m de largo por 2,44 m de alto, adaptable a las necesidades de cada proyecto. Están fabricados con chapa galvanizada C25 y estructura de caños 20x20 (0,9 mm), lo que garantiza resistencia ante las condiciones más exigentes de la construcción."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué diferencia hay entre el portón corredizo y el portón doble hoja?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El portón corredizo (4,66 x 2,44 m) usa un riel de deslizamiento reforzado y es ideal para mayor comodidad sin tener que abrir las puertas hacia afuera. El portón doble hoja (2 hojas de 2 x 2,44 m con bisagras reforzadas y anclaje seguro) es la opción elegida cuando se busca una alternativa más económica para el acceso de maquinaria y vehículos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se puede imprimir un diseño en el cerco de obra?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, los cercos de obra pueden personalizarse con impresión en vinilo de alta resolución, ideal para emprendimientos inmobiliarios que quieran mostrar el diseño del proyecto. También se fabrican sin diseño, con la chapa galvanizada a la vista, según la necesidad de cada obra."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto demora la fabricación de un cerco de obra?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La fabricación de un cerco de obra estándar demora aproximadamente veinte días, dependiendo del tamaño y tipo de cerco."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tarda la instalación de un cerco de obra?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La instalación profesional de un cerco de obra estándar se realiza en entre uno y dos días hábiles, dependiendo del metraje, el tipo de cerco y las condiciones del lugar. El servicio de instalación está incluido en CABA y GBA."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Con qué materiales se fabrica el cartel de obra?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Los carteles de obra se confeccionan con bastidor de madera y lona vinílica impresa en alta resolución. Son livianos, de excelente presentación y fácil montaje. Incluyen diseño personalizado con el logo y colores de tu estudio o empresa, espacio para la promoción de tu marca y los datos de la obra y profesionales intervinientes. Están disponibles en varias medidas según los requerimientos de cada proyecto."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué materiales usan para fabricar los caballetes de estacionamiento?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nuestros caballetes miden 1,50 m x 1,10 m (total) con superficie de impresión de 1,50 m x 0,60 m. Se construyen con tirantes de madera 3\" x 3\" y chapa galvanizada C25, con impresión en vinilo 1440 DPI UV. Son resistentes a la intemperie y personalizables con tu logo y datos de contacto."
+            }
+          }
+        ]
       }
     ]
   }
   </script>
 </head>
 
-<body class="bg-white text-gray-700 font-manrope antialiased selection:bg-brandRed selection:text-white">
+<body id="page-top" class="bg-white text-gray-700 font-manrope antialiased selection:bg-brandRed selection:text-white">
 
   <!-- 🟢 NAVIGATION (MOBILE-FIRST "APP" STYLE) -->
   <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
@@ -127,6 +217,8 @@
               class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Caballetes</a>
             <a href="#proyectos"
               class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
+            <a href="#preguntas-frecuentes"
+              class="hover:text-brandRed transition-colors px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
             <a href="#contacto"
               class="bg-brandRed font-sans text-white hover:bg-gray-900 hover:text-white px-4 py-2 rounded-none font-bold transition-all">CONTACTO</a>
           </div>
@@ -146,6 +238,7 @@
         <a href="#cdo" class="block hover:text-brandRed transition-colors py-2">Carteles</a>
         <a href="#caballetes" class="block hover:text-brandRed transition-colors py-2">Caballetes</a>
         <a href="#proyectos" class="block hover:text-brandRed transition-colors py-2">Portfolio</a>
+        <a href="#preguntas-frecuentes" class="block hover:text-brandRed transition-colors py-2">FAQ</a>
         <a href="#contacto" class="block bg-brandRed text-white px-4 py-3 text-center font-bold">CONTACTO</a>
       </div>
     </div>
@@ -157,11 +250,9 @@
     <div class="absolute inset-0 bg-gradient-to-t from-white z-10"></div>
     <!-- Background (Replace generic image with Drone Footage) -->
     <div id="hero-bg" class="absolute inset-0 z-0 overflow-hidden">
-      <img src="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=1920&auto=format&fit=crop"
-        srcset="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=828&auto=format&fit=crop 828w,
+      <img src="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=1920&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=828&auto=format&fit=crop 828w,
                 https://images.unsplash.com/photo-1591955506264-3f5a6834570a?q=80&w=1920&auto=format&fit=crop 1920w"
-        sizes="100vw"
-        alt="Construction Site Background" class="w-full h-full object-cover opacity-40 ken-burns"
+        sizes="100vw" alt="Construction Site Background" class="w-full h-full object-cover opacity-40 ken-burns"
         fetchpriority="high">
     </div>
 
@@ -203,7 +294,8 @@
           class="md:col-span-2 relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/corredizo/cerco-de-obra-one-place.avif" alt="Cerco de Obra Corredizo"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <!-- <h3 class="text-3xl font-bold text-gray-900 mb-2">Cercos de Obra</h3> -->
@@ -219,7 +311,8 @@
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/doble-hoja/cerco-de-obra-dicaba.avif" alt="Cerco de Obra Doble Hoja"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-brandRed font-bold mb-4 hover:text-gray-900 flex items-center gap-2">PORTON DOBLE HOJA</p>
@@ -231,7 +324,7 @@
 
         <article class="md:col-span-2 relative group">
           <!-- <span class="text-brandRed font-mono text-sm tracking-widest uppercase mb-2 block">Ingeniería & Calidad</span> -->
-          <h2 class="text-3xl font-bold text-gray-900 mb-6">Nuestra Propuesta</h2>
+          <h3 class="text-3xl font-bold text-gray-900 mb-6">Nuestra Propuesta</h3>
           <p class="text-gray-600 mb-6 leading-relaxed">
             Nuestros <strong class="font-bold text-gray-900">cercos de obra reglamentarios</strong> están diseñados
             para cumplir con las normativas de CABA y provincia
@@ -276,7 +369,8 @@
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 cursor-pointer"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/sin-apertura/cerco-de-obra-vaccaro.avif" alt="Cerco de Obra Sin Apertura"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/30"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-brandRed font-bold mb-4 hover:text-gray-900 flex items-center gap-2">SIN APERTURA</p>
@@ -301,34 +395,38 @@
         <div class="relative h-[500px] overflow-hidden border border-gray-200">
           <div id="cdo-carousel" class="flex h-full transition-transform duration-700">
             <div class="w-full h-full flex-shrink-0">
-              <img src="img/portofolio/cdo/cartel-de-obra-breconar.jpg" alt="Cartel de Obra Breconar"
-                loading="lazy" class="w-full h-full object-cover">
+              <img src="img/portofolio/cdo/cartel-de-obra-breconar.jpg" alt="Cartel de Obra Breconar" loading="lazy"
+                class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full flex-shrink-0">
-              <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra MSK"
-                loading="lazy" class="w-full h-full object-cover">
+              <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra MSK" loading="lazy"
+                class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full flex-shrink-0">
-              <img src="img/portofolio/cdo/cartel-de-obra-nsd.jpg" alt="Cartel de Obra NSD"
-                loading="lazy" class="w-full h-full object-cover">
+              <img src="img/portofolio/cdo/cartel-de-obra-nsd.jpg" alt="Cartel de Obra NSD" loading="lazy"
+                class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full flex-shrink-0">
-              <img src="img/portofolio/cdo/cartel-de-obra-rio.jpg" alt="Cartel de Obra Rio"
-                loading="lazy" class="w-full h-full object-cover">
+              <img src="img/portofolio/cdo/cartel-de-obra-rio.jpg" alt="Cartel de Obra Rio" loading="lazy"
+                class="w-full h-full object-cover">
             </div>
           </div>
           <!-- Carousel Dots -->
           <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="0" aria-label="Imagen 1"><span class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
-            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="1" aria-label="Imagen 2"><span class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
-            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="2" aria-label="Imagen 3"><span class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
-            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="3" aria-label="Imagen 4"><span class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
+            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="0" aria-label="Imagen 1"><span
+                class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
+            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="1" aria-label="Imagen 2"><span
+                class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
+            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="2" aria-label="Imagen 3"><span
+                class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
+            <button class="cdo-dot w-6 h-6 flex items-center justify-center" data-index="3" aria-label="Imagen 4"><span
+                class="w-2 h-2 rounded-full bg-white/70 block pointer-events-none transition-colors"></span></button>
           </div>
         </div>
 
         <!-- Right: Article Text -->
         <article>
-          <h2 class="text-3xl font-bold text-gray-900 mb-6">Sin cargo con anuncios</h2>
+          <h3 class="text-3xl font-bold text-gray-900 mb-6">Sin cargo con anuncios</h3>
           <p class="text-gray-600 mb-6 leading-relaxed">
             Confeccionados en bastidor de madera y lona vinílica impresa en <strong class="font-bold text-gray-900">alta
               resolución</strong>, son livianos, de inmejorable calidad, excelente presentación y fácil montaje.
@@ -361,7 +459,7 @@
             </div>
           </div>
 
-          <h2 class="text-2xl font-bold text-gray-900 mb-4">Cartel de Obra Reglamentario (QR)</h2>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Cartel de Obra Reglamentario (QR)</h3>
           <p class="text-gray-600">
             Lo ofrecemos de modo <strong class="font-bold text-gray-900">GRATUITO</strong> junto al pedido del Cartel de
             Obra con anuncios exclusivamente.
@@ -381,8 +479,8 @@
         <!-- Column 1: Image -->
         <div
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 h-full min-h-[400px]">
-          <img src="img/portofolio/caballete/caballete-coinsa.avif" alt="Caballete Prohibido Estacionar"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/caballete/caballete-coinsa.avif" alt="Caballete Prohibido Estacionar" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
@@ -393,7 +491,7 @@
 
         <!-- Column 2: Text -->
         <div class="flex flex-col justify-center">
-          <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Delimitador de estacionamiento</h2>
+          <h3 class="text-3xl font-bold text-gray-900 mb-6 text-center">Delimitador de estacionamiento</h3>
           <p class="text-gray-600 mb-6 leading-relaxed text-center">
             Ideales para demarcar el espacio de estacionamiento reservado para tu obra. Fabricados en madera tratada con
             pintura para exterior, resistentes a la intemperie y al viento.
@@ -424,8 +522,8 @@
         <!-- Column 3: More Image -->
         <div
           class="relative group overflow-hidden bg-concrete border border-gray-200 hover:border-brandRed/50 transition-all duration-500 h-full min-h-[400px]">
-          <img src="img/portofolio/caballete/caballete-msr.avif" alt="Caballete Prohibido Estacionar"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/caballete/caballete-msr.avif" alt="Caballete Prohibido Estacionar" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div class="absolute bottom-0 left-0 p-8">
             <p class="text-gray-600 font-mono text-sm border-l-2 border-brandRed pl-3">
@@ -450,7 +548,8 @@
           class="col-span-1 md:col-span-2 row-span-1 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer md:h-auto"
           onclick="openModal('modal-carteles')">
           <img src="img/portofolio/carteles/cartel-torres-de-caballito.webp" alt="Cartel Torres de Caballito"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700">
+            loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover object-left group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -460,8 +559,8 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-lonas')">
-          <img src="img/portofolio/lona-forbex.webp" alt="Lona Forbex"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/lona-forbex.webp" alt="Lona Forbex" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -473,8 +572,8 @@
           class="md:row-span-2 relative group overflow-hidden bg-concrete aspect-square md:aspect-auto cursor-pointer md:h-auto"
           onclick="openModal('modal-gigantografias')">
           <img src="img/portofolio/gigantografia/gigantografia-chateau-libertador.webp"
-            alt="Gigantografia Chateau Libertador"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
+            alt="Gigantografia Chateau Libertador" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -484,8 +583,8 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-caballetes')">
-          <img src="img/portofolio/caballete/caballete-schiaffino.avif" alt="Caballete de madera"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/caballete/caballete-schiaffino.avif" alt="Caballete de madera" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -495,8 +594,8 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-cdo')">
-          <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/cdo/cartel-de-obra-msk.jpg" alt="Cartel de Obra" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -508,8 +607,8 @@
           class="md:col-span-2 md:row-span-2 relative group overflow-hidden bg-concrete aspect-square cursor-pointer md:h-auto"
           onclick="openModal('modal-cercos')">
           <img src="img/portofolio/cercos/viejos/cerco-de-obra-emilio-lamarca-1024.avif"
-            alt="Cerco de obra con portón corredizo instalado en construcción en Buenos Aires"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            alt="Cerco de obra con portón corredizo instalado en construcción en Buenos Aires" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -521,7 +620,8 @@
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-inmobiliaria')">
           <img src="img/portofolio/inmobiliaria/cartel-inmobiliaria-covello.webp" alt="Cartel para Inmobiliaria"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -531,8 +631,8 @@
         </div>
         <div class="relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-comercios')">
-          <img src="img/portofolio/comercios/cartel-teloguardo.webp" alt="Carteles para Comercios"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/comercios/cartel-teloguardo.webp" alt="Carteles para Comercios" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -542,8 +642,8 @@
         </div>
         <div class="md:col-start-4 relative group overflow-hidden bg-concrete aspect-square cursor-pointer"
           onclick="openModal('modal-vinilos')">
-          <img src="img/portofolio/autoadesivo-covello.webp" alt="Gráfica autoadhesiva"
-            loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+          <img src="img/portofolio/autoadesivo-covello.webp" alt="Gráfica autoadhesiva" loading="lazy"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/0"></div>
           <div
             class="absolute bottom-0 left-0 px-6 py-3 w-full bg-white/40 group-hover:bg-brandRed/20 transition-colors duration-300">
@@ -623,8 +723,8 @@
           class="absolute top-4 right-4 text-gray-500 hover:text-brandRed text-4xl z-10 transition-colors">&times;</button>
         <div class="max-w-5xl w-full bg-white rounded-lg overflow-hidden shadow-2xl">
           <div class="relative bg-concrete">
-            <img id="modal-lonas-img" src="img/portofolio/lona-forbex.webp" alt="Lona Forbex"
-              loading="lazy" class="w-full h-auto max-h-[60vh] object-contain mx-auto">
+            <img id="modal-lonas-img" src="img/portofolio/lona-forbex.webp" alt="Lona Forbex" loading="lazy"
+              class="w-full h-auto max-h-[60vh] object-contain mx-auto">
           </div>
           <div class="p-6 border-t border-gray-200">
             <div class="flex justify-between items-center mb-4">
@@ -920,6 +1020,196 @@
         </p>
       </div>
     </section>
+
+    <!-- 🟢 PREGUNTAS FRECUENTES -->
+    <section id="preguntas-frecuentes" class="mb-16 md:mb-32">
+      <div class="mb-12 border-b border-gray-200 pb-4">
+        <h2 class="text-4xl font-bold text-gray-900 mb-2 uppercase">Preguntas Frecuentes</h2>
+        <span class="font-mono text-brandRed hidden md:block">Todo lo que necesitás saber sobre nuestros
+          servicios</span>
+      </div>
+      <div class="space-y-2 max-w-4xl mx-auto">
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">01</span>
+              <span class="font-bold text-gray-900">¿Trabajan en toda el área metropolitana de Buenos Aires?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              Sí, ofrecemos fabricación e instalación de cercos de obra, carteles y caballetes en la <strong
+                class="text-gray-900">Ciudad Autónoma de Buenos Aires (CABA)</strong> y en el <strong
+                class="text-gray-900">Gran Buenos Aires (GBA)</strong>. Para consultas sobre otras zonas del interior de
+              la provincia, contactanos directamente.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">02</span>
+              <span class="font-bold text-gray-900">¿El cerco de obra es obligatorio en CABA?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              Sí, el cerco perimetral de obra es obligatorio en la Ciudad de Buenos Aires (CABA) según la normativa
+              vigente. Debe cubrir el frente de la construcción con una altura mínima reglamentaria de 2,44 m. En Leka
+              Publicidad fabricamos e instalamos cercos que cumplen con todas las normativas de CABA y GBA.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">03</span>
+              <span class="font-bold text-gray-900">¿Cuál es la medida estándar de un cerco de obra?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              La medida estándar de nuestros cercos de obra es de <strong class="text-gray-900">8,66 m de largo por 2,44
+                m de alto</strong>, adaptable a las necesidades de cada proyecto. Están fabricados con chapa galvanizada
+              C25 y estructura de caños 20x20 (0,9 mm), lo que garantiza resistencia ante las condiciones más exigentes
+              de la construcción.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">04</span>
+              <span class="font-bold text-gray-900">¿Qué diferencia hay entre el portón corredizo y el portón doble
+                hoja?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              El <strong class="text-gray-900">portón corredizo</strong> (4,66 x 2,44 m) usa un riel de deslizamiento
+              reforzado y es ideal para mayor comodidad sin tener que abrir las puertas hacia afuera. El
+              <strong class="text-gray-900">portón doble hoja</strong> (2 hojas de 2 x 2,44 m con bisagras reforzadas y
+              anclaje seguro) es la opción elegida cuando se busca una alteranativa más económica para el acceso de
+              maquinaria y vehículos.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">05</span>
+              <span class="font-bold text-gray-900">¿Se puede imprimir un diseño en el cerco de obra?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              Sí, los cercos de obra pueden personalizarse con <strong class="text-gray-900">impresión en
+                vinilo</strong>
+              de alta resolución, ideal para emprendimientos inmobiliarios que quieran mostrar el diseño del proyecto.
+              También se fabrican <strong class="text-gray-900">sin diseño</strong>, con la chapa galvanizada a la
+              vista,
+              según la necesidad de cada obra.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">06</span>
+              <span class="font-bold text-gray-900">¿Cuánto demora la fabricación de un cerco de obra?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              La fabricación de un cerco de obra estánndar demora aproximadamente <strong class="text-gray-900">veinte
+                días</strong>, dependiendo del tamaño y tipo de cerco.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">07</span>
+              <span class="font-bold text-gray-900">¿Cuánto tarda la instalación de un cerco de obra?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              La instalación profesional de un cerco de obra estándar se realiza en <strong class="text-gray-900">entre
+                uno y dos días
+                hábil</strong>, dependiendo del metraje, el tipo de cerco y las condiciones del lugar. El servicio de
+              instalación está
+              incluido en CABA y GBA.
+            </p>
+          </div>
+        </details>
+
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">08</span>
+              <span class="font-bold text-gray-900">¿Con qué materiales se fabrica el cartel de obra?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              Los carteles de obra se confeccionan con <strong class="text-gray-900">bastidor de madera y lona vinílica
+                impresa en alta resolución</strong>. Son livianos, de excelente presentación y fácil montaje. Incluyen
+              diseño personalizado con el logo y colores de tu estudio o empresa, espacio para la promoción de tu marca
+              y
+              los datos de la obra y profesionales intervinientes. Están disponibles en varias medidas según los
+              requerimientos de cada proyecto.
+            </p>
+          </div>
+        </details>
+
+        <details class="group border border-gray-200 hover:border-brandRed/50 transition-colors">
+          <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none">
+            <div class="flex items-center gap-4 min-w-0">
+              <span class="font-mono text-brandRed text-xs tracking-widest shrink-0">09</span>
+              <span class="font-bold text-gray-900">¿Qué materiales usan para fabricar los caballetes de
+                estacionamiento?</span>
+            </div>
+            <span
+              class="text-brandRed shrink-0 text-2xl font-light leading-none group-open:rotate-45 transition-transform duration-200">+</span>
+          </summary>
+          <div class="px-5 pb-5 pt-1">
+            <p class="text-gray-600 leading-relaxed border-l-2 border-brandRed pl-4 ml-8">
+              Nuestros caballetes miden <strong class="text-gray-900">1,50 m x 1,10 m</strong> (total) con superficie de
+              impresión de 1,50 m x 0,60 m. Se construyen con tirantes de madera 3" x 3" y chapa galvanizada C25, con
+              impresión en vinilo 1440 DPI UV. Son resistentes a la intemperie y personalizables con tu logo y datos de
+              contacto.
+            </p>
+          </div>
+        </details>
+
+
+      </div>
+    </section>
   </main>
 
   <!-- 🟢 CONTACTO FORM -->
@@ -1028,7 +1318,8 @@
   <footer class="bg-gray-900 pt-20 pb-10 text-center md:text-left">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-12">
       <div>
-        <img src="img/sml-brand.png" alt="Leka Publicidad" loading="lazy" class="h-10 w-auto mb-6 ml-auto mr-auto md:ml-0">
+        <img src="img/sml-brand.png" alt="Leka Publicidad" loading="lazy"
+          class="h-10 w-auto mb-6 ml-auto mr-auto md:ml-0">
         <p class="mt-6 text-gray-400 max-w-sm">
           Soluciones integrales de comunicación visual para la industria de la construcción.
         </p>
@@ -1049,14 +1340,30 @@
         <p>carteles@lekapublicidad.com.ar</p>
         <p class="pt-4 ">Buenos Aires, Argentina</p>
         <div class="flex md:justify-end gap-4 pt-6 justify-center">
-          <a href="https://www.instagram.com/lekapublicidad" class="hover:text-brandRed transition-colors" aria-label="Instagram de Leka Publicidad">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          <a href="https://www.instagram.com/lekapublicidad" class="hover:text-brandRed transition-colors"
+            aria-label="Instagram de Leka Publicidad">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+            </svg>
           </a>
-          <a href="https://www.facebook.com/lekapublicidad" class="hover:text-brandRed transition-colors" aria-label="Facebook de Leka Publicidad">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          <a href="https://www.facebook.com/lekapublicidad" class="hover:text-brandRed transition-colors"
+            aria-label="Facebook de Leka Publicidad">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+            </svg>
           </a>
-          <a href="https://www.linkedin.com/company/leka-publicidad/" class="hover:text-brandRed transition-colors" aria-label="LinkedIn de Leka Publicidad">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          <a href="https://www.linkedin.com/company/leka-publicidad/" class="hover:text-brandRed transition-colors"
+            aria-label="LinkedIn de Leka Publicidad">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
           </a>
         </div>
       </div>
@@ -1070,31 +1377,17 @@
   <a href="https://wa.me/541137573070"
     class="group fixed bottom-8 right-8 w-14 h-14 bg-[#25d366] text-white rounded-full flex items-center justify-center text-3xl shadow-[0_4px_15px_rgba(37,211,102,0.4)] z-[1000] transition-transform duration-300 hover:scale-110 max-md:bottom-4 max-md:right-4"
     target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 relative" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.528 5.857L.057 23.571a.5.5 0 0 0 .601.629l5.882-1.538A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.66-.515-5.177-1.41l-.37-.22-3.488.913.929-3.4-.242-.38A9.951 9.951 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7 relative"
+      aria-hidden="true">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path
+        d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.528 5.857L.057 23.571a.5.5 0 0 0 .601.629l5.882-1.538A11.95 11.95 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.892 0-3.66-.515-5.177-1.41l-.37-.22-3.488.913.929-3.4-.242-.38A9.951 9.951 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+    </svg>
     <span
       class="absolute right-16 bg-white text-gray-900 px-3 py-1 rounded-md text-xs font-semibold shadow-sm whitespace-nowrap opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">Escribinos
       por WhatsApp</span>
   </a>
-
-  <!-- 🟢 2026 GEO/SEO SCHEMA (Structured Data) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Leka Publicidad",
-    "image": "https://www.lekapublicidad.com.ar/img/logo.png",
-    "description": "Fabricación e instalación de carteles de obra, cercos perimetrales y señalética industrial en Buenos Aires.",
-    "telephone": "+54 11 3757 3070",
-    "email": "carteles@lekapublicidad.com.ar",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Buenos Aires",
-      "addressCountry": "AR"
-    },
-    "url": "https://www.lekapublicidad.com.ar/",
-    "priceRange": "$$"
-  }
-</script>
 
   <!-- Icons Init -->
   <script src="js/app.js" defer></script>

@@ -145,6 +145,15 @@ h2 {
     background-color: white;
 }
 
+/* Hide native summary triangle */
+summary {
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
 /* Parallax Contact Section */
 @media (max-width: 768px) {
     #contacto > div > div:first-child {
