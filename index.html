@@ -24,30 +24,8 @@
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;500;700&family=Manrope&display=swap">
   </noscript>
-  <script src="https://unpkg.com/lucide@1.6.0/dist/umd/lucide.min.js"></script>
-  <script src="https://cdn.tailwindcss.com/3.4.17" data-cfasync="false" type="text/javascript"></script>
-
-  <!-- 🟢 CUSTOM CONFIG FOR LIGHT INDUSTRIAL THEME -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            white: '#FFFFFF',
-            concrete: '#F1F5F9',
-            brandRed: '#cc2222', // Leka Red (WCAG AA: 5.1:1 on white)
-            warning: '#FF4500'
-          },
-          fontFamily: {
-            sans: ['Space Grotesk', 'sans-serif'],
-            mono: ['JetBrains Mono', 'monospace'],
-            manrope: ['Manrope', 'sans-serif'],
-          }
-        }
-      }
-    }
-  </script>
-  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://unpkg.com/lucide@1.6.0/dist/umd/lucide.min.js" defer></script>
+  <link rel="stylesheet" href="css/output.css">
 
   <!-- 🟢 JSON-LD STRUCTURED DATA FOR SEO -->
   <script type="application/ld+json">
@@ -1119,12 +1097,12 @@
 </script>
 
   <!-- Icons Init -->
-  <script src="js/app.js"></script>
-  <script src="js/portfolio.js"></script>
+  <script src="js/app.js" defer></script>
+  <script src="js/portfolio.js" defer></script>
 
   <!-- EmailJS -->
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="js/contact.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="js/contact.js" defer></script>
 
 </body>
 

@@ -1,3 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-white: #FFFFFF;
+  --color-concrete: #F1F5F9;
+  --color-brandRed: #cc2222;
+  --color-warning: #FF4500;
+
+  --font-sans: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-manrope: 'Manrope', sans-serif;
+}
+
 /* Light Theme Background Grid */
 /* body {
     background-color: #F8FAFC;
@@ -100,9 +113,6 @@ h3 {
     -webkit-animation: cosmic-gradient 3s linear infinite;
     animation: cosmic-gradient 3s linear infinite;
 }
-
-/* --- Whatsapp Floating Button --- */
-/* Moved to Tailwind classes in index.html */
 
 /* Ken Burns Hero Animation */
 @keyframes kenBurns {
