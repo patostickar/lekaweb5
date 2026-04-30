@@ -129,8 +129,12 @@ h3 {
     width: 25%;
 }
 
-.cdo-dot.active {
+.cdo-dot.active span {
     background-color: #ff4040;
+}
+
+.cdo-dot:hover span {
+    background-color: white;
 }
 
 /* Parallax Contact Section */
