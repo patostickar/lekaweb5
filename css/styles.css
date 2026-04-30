@@ -35,8 +35,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ff4040;
-    /* Brand red hover */
+    background: #cc2222;
 }
 
 /* Typography Tweaks */
@@ -130,7 +129,7 @@ h3 {
 }
 
 .cdo-dot.active span {
-    background-color: #ff4040;
+    background-color: #cc2222;
 }
 
 .cdo-dot:hover span {
